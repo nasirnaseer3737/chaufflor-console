@@ -1,1 +1,393 @@
-ZXhwb3J0IHR5cGUgVHJpcFR5cGUgPQogIHwgJ0FpcnBvcnQgcGlja3VwJwogIHwgJ0FpcnBvcnQgZHJvcC1vZmYnCiAgfCAnVHJhbnNmZXInCiAgfCAnQnkgdGhlIGhvdXInCiAgfCAnQ2l0eSB0b3VyJwogIHwgJ0J1c2luZXNzJwogIHwgJ1dlZGRpbmcnOwoKZXhwb3J0IHR5cGUgUmlkZVN0YXR1cyA9ICdVcGNvbWluZycgfCAnTGl2ZScgfCAnQ29tcGxldGVkJyB8ICdDYW5jZWxsZWQnOwpleHBvcnQgdHlwZSBQYXltZW50TWV0aG9kID0KICB8ICdDYXNoJwogIHwgJ0NhcmQgdGVybWluYWwnCiAgfCAnT25saW5lIGxpbmsnCiAgfCAnQmFuayB0cmFuc2ZlcicKICB8ICdDb3Jwb3JhdGUgaW52b2ljZSc7CmV4cG9ydCB0eXBlIFBheW1lbnRTdGF0dXMgPSAnUGVuZGluZycgfCAnQ29sbGVjdGVkJyB8ICdSZWNvbmNpbGVkJzsKCmV4cG9ydCBpbnRlcmZhY2UgUmlkZSB7CiAgaWQ6IHN0cmluZzsKICByZWY6IHN0cmluZzsKICBjdXN0b21lck5hbWU6IHN0cmluZzsKICBwaG9uZTogc3RyaW5nOwogIHRyaXBUeXBlOiBUcmlwVHlwZTsKICBwaWNrdXA6IHN0cmluZzsKICBkcm9wb2ZmOiBzdHJpbmc7CiAgZGF0ZTogc3RyaW5nOyAvLyBZWVlZLU1NLURECiAgdGltZTogc3RyaW5nOyAvLyBISDpNTQogIHBhc3NlbmdlcnM6IG51bWJlcjsKICBsdWdnYWdlOiBudW1iZXI7CiAgcGF5bWVudE1ldGhvZDogUGF5bWVudE1ldGhvZDsKICBuYW1lQm9hcmQ6IHN0cmluZzsKICBub3Rlczogc3RyaW5nOwogIHZlaGljbGVDbGFzczogc3RyaW5nOwogIGRpc3RhbmNlS206IG51bWJlcjsKICBob3VyczogbnVtYmVyOwogIHByaWNlOiBudW1iZXI7CiAgc3RhdHVzOiBSaWRlU3RhdHVzOwogIGNoYXVmZmV1cklkOiBzdHJpbmcgfCBudWxsOwogIGNyZWF0ZWRBdDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIENoYXVmZmV1ciB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgcGhvbmU6IHN0cmluZzsKICBzdGF0dXM6ICdPbiBkdXR5JyB8ICdPZmYgZHV0eScgfCAnT24gYSByaWRlJyB8ICdPbmxpbmUnOwogIGxpY2VuY2VFeHBpcnk6IHN0cmluZzsKICBkb2N1bWVudEV4cGlyeTogc3RyaW5nOwogIGNhc2hIZWxkOiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgVmVoaWNsZSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgY2xhc3NJZDogc3RyaW5nOwogIHBsYXRlOiBzdHJpbmc7CiAgbXVsa2l5YUV4cGlyeTogc3RyaW5nOwogIGluc3VyYW5jZUV4cGlyeTogc3RyaW5nOwogIHJ0YUV4cGlyeTogc3RyaW5nOwogIHN0YXR1czogJ0FjdGl2ZScgfCAnTWFpbnRlbmFuY2UnOwogIGRlZmF1bHRDaGF1ZmZldXJJZDogc3RyaW5nIHwgbnVsbDsKfQoKZXhwb3J0IGludGVyZmFjZSBDdXN0b21lciB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgcGhvbmU6IHN0cmluZzsKICBlbWFpbDogc3RyaW5nOwogIGNvbXBhbnk6IHN0cmluZzsKICBmbGFnZ2VkOiBib29sZWFuOwogIGNyZWF0ZWRBdDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFBheW1lbnQgewogIGlkOiBzdHJpbmc7CiAgcmlkZVJlZjogc3RyaW5nOwogIGFtb3VudDogbnVtYmVyOwogIG1ldGhvZDogUGF5bWVudE1ldGhvZDsKICBzdGF0dXM6IFBheW1lbnRTdGF0dXM7CiAgZGF0ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFZlaGljbGVDbGFzcyB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBkaXN0YW5jZVByaWNlczogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsgLy8ga2V5czogNjAsMTAwLDE1MCwyMDAsMzAwLDQwMAogIGhvdXJseVByaWNlczogUmVjb3JkPHN0cmluZywgbnVtYmVyPjsgLy8ga2V5czogMiw0LDYsOCwxMAp9CgpleHBvcnQgaW50ZXJmYWNlIFByaWNpbmdSdWxlIHsKICBpZDogc3RyaW5nOwogIHRpdGxlOiBzdHJpbmc7CiAgZGVzY3JpcHRpb246IHN0cmluZzsKICBhbW91bnQ6IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBUb2xsR2F0ZSB7CiAgaWQ6IHN0cmluZzsKICBuYW1lOiBzdHJpbmc7CiAgY2l0eTogJ0R1YmFpJyB8ICdBYnUgRGhhYmknOwogIHR5cGU6ICdTYWxpaycgfCAnRGFyYic7CiAgdmVyaWZpZWQ6IGJvb2xlYW47Cn0KCmV4cG9ydCBpbnRlcmZhY2UgQWlycG9ydFRlcm1pbmFsIHsKICBuYW1lOiBzdHJpbmc7CiAgbWVldGluZ1BvaW50OiBzdHJpbmc7CiAgZmVlOiBudW1iZXI7CiAgY29zdDogbnVtYmVyOwp9CgpleHBvcnQgaW50ZXJmYWNlIEFpcnBvcnQgewogIGlkOiBzdHJpbmc7CiAgY29kZTogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICB0ZXJtaW5hbHM6IEFpcnBvcnRUZXJtaW5hbFtdOwp9CgpleHBvcnQgaW50ZXJmYWNlIFByb21vQ29kZSB7CiAgaWQ6IHN0cmluZzsKICBjb2RlOiBzdHJpbmc7CiAgZGlzY291bnRQY3Q6IG51bWJlcjsKICBhY3RpdmU6IGJvb2xlYW47CiAgcmVkZW1wdGlvbnM6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBDYW1wYWlnbiB7CiAgaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIG1lc3NhZ2U6IHN0cmluZzsKICBzdGF0dXM6ICdEcmFmdCcgfCAnU2VudCc7CiAgY3JlYXRlZEF0OiBzdHJpbmc7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgTWVzc2FnZUVudHJ5IHsKICBpZDogc3RyaW5nOwogIGNoYW5uZWw6ICdFbWFpbCcgfCAnU01TJyB8ICdXaGF0c0FwcCc7CiAgdG86IHN0cmluZzsKICBzdWJqZWN0OiBzdHJpbmc7CiAgc3RhdHVzOiAnU2VudCcgfCAnRmFpbGVkJyB8ICdMb2cgbW9kZSc7CiAgZGF0ZTogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIFNldHRpbmdzIHsKICBleHRyYVN0b3BGZWU6IG51bWJlcjsKICBmcmVlV2FpdGluZ0FpcnBvcnQ6IG51bWJlcjsKICBmcmVlV2FpdGluZ0Vsc2U6IG51bWJlcjsKICBmcmVlQ2FuY2VsSG91cnM6IG51bWJlcjsKICBsYXRlRmVlNTBVbnRpbEhvdXJzOiBudW1iZXI7CiAgbGF0ZUZlZTEwMEFmdGVySG91cnM6IG51bWJlcjsKICBvbmxpbmVGZWVQY3Q6IG51bWJlcjsKICBtaW5Ob3RpY2VNaW51dGVzOiBudW1iZXI7CiAgbWluSG91cmx5SG91cnM6IG51bWJlcjsKICBxdW90ZVZhbGlkTWludXRlczogbnVtYmVyOwogIHZhdFJlZ2lzdGVyZWQ6IGJvb2xlYW47CiAgb25saW5lQm9va2luZzogYm9vbGVhbjsKfQoKZXhwb3J0IGludGVyZmFjZSBTdG9yZURhdGEgewogIHJpZGVzOiBSaWRlW107CiAgY3VzdG9tZXJzOiBDdXN0b21lcltdOwogIGNoYXVmZmV1cnM6IENoYXVmZmV1cltdOwogIHZlaGljbGVzOiBWZWhpY2xlW107CiAgcGF5bWVudHM6IFBheW1lbnRbXTsKICBjbGFzc2VzOiBWZWhpY2xlQ2xhc3NbXTsKICBwcmljaW5nUnVsZXM6IFByaWNpbmdSdWxlW107CiAgdG9sbEdhdGVzOiBUb2xsR2F0ZVtdOwogIGFpcnBvcnRzOiBBaXJwb3J0W107CiAgcHJvbW9zOiBQcm9tb0NvZGVbXTsKICBjYW1wYWlnbnM6IENhbXBhaWduW107CiAgbWVzc2FnZXM6IE1lc3NhZ2VFbnRyeVtdOwogIHNldHRpbmdzOiBTZXR0aW5nczsKICBhZG1pbkhhc2g6IHN0cmluZyB8IG51bGw7Cn0KCmV4cG9ydCBjb25zdCBTVE9SQUdFX0tFWSA9ICdjaGF1ZmZsb3ItZGVtby12MSc7CmV4cG9ydCBjb25zdCBTRVNTSU9OX0tFWSA9ICdjaGF1ZmZsb3ItZGVtby1zZXNzaW9uJzsKCmV4cG9ydCBmdW5jdGlvbiB1aWQocHJlZml4OiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBgJHtwcmVmaXh9LSR7TWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMiwgOCl9LSR7RGF0ZS5ub3coKS50b1N0cmluZygzNil9YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIHRvZGF5U3RyKG9mZnNldERheXMgPSAwKTogc3RyaW5nIHsKICBjb25zdCBkID0gbmV3IERhdGUoKTsKICBkLnNldERhdGUoZC5nZXREYXRlKCkgKyBvZmZzZXREYXlzKTsKICByZXR1cm4gZC50b0lTT1N0cmluZygpLnNsaWNlKDAsIDEwKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdlbmVyYXRlUmVmKGV4aXN0aW5nOiBzdHJpbmdbXSk6IHN0cmluZyB7CiAgbGV0IHJlZiA9ICcnOwogIGRvIHsKICAgIHJlZiA9IGBDSC0yMDI2LSR7U3RyaW5nKE1hdGguZmxvb3IoMTAwMCArIE1hdGgucmFuZG9tKCkgKiA5MDAwKSl9YDsKICB9IHdoaWxlIChleGlzdGluZy5pbmNsdWRlcyhyZWYpKTsKICByZXR1cm4gcmVmOwp9CgovKiogRGVtby1vbmx5IGhhc2ggKG5vdCBwcm9kdWN0aW9uIHNlY3VyaXR5KS4gTmV2ZXIgdXNlIGZvciByZWFsIHBhc3N3b3Jkcy4gKi8KZXhwb3J0IGZ1bmN0aW9uIGRlbW9IYXNoKHBhc3N3b3JkOiBzdHJpbmcpOiBzdHJpbmcgewogIGxldCBoMSA9IDB4ZGVhZGJlZWY7CiAgbGV0IGgyID0gMHg0MWM2Y2U1NzsKICBjb25zdCBzYWx0ZWQgPSBgY2hhdWZmbG9yLWRlbW86OiR7cGFzc3dvcmR9YDsKICBmb3IgKGxldCBpID0gMDsgaSA8IHNhbHRlZC5sZW5ndGg7IGkrKykgewogICAgY29uc3QgY2ggPSBzYWx0ZWQuY2hhckNvZGVBdChpKTsKICAgIGgxID0gTWF0aC5pbXVsKGgxIF4gY2gsIDI2NTQ0MzU3NjEpOwogICAgaDIgPSBNYXRoLmltdWwoaDIgXiBjaCwgMTU5NzMzNDY3Nyk7CiAgfQogIGgxID0gTWF0aC5pbXVsKGgxIF4gKGgxID4+PiAxNiksIDIyNDY4MjI1MDcpIF4gTWF0aC5pbXVsKGgyIF4gKGgyID4+PiAxMyksIDMyNjY0ODk5MDkpOwogIGgyID0gTWF0aC5pbXVsKGgyIF4gKGgyID4+PiAxNiksIDIyNDY4MjI1MDcpIF4gTWF0aC5pbXVsKGgxIF4gKGgxID4+PiAxMyksIDMyNjY0ODk5MDkpOwogIHJldHVybiBgJHsoaDIgPj4+IDApLnRvU3RyaW5nKDE2KX0keyhoMSA+Pj4gMCkudG9TdHJpbmcoMTYpfWA7Cn0KCmZ1bmN0aW9uIG5lYXJlc3RCYW5kKHByaWNlczogUmVjb3JkPHN0cmluZywgbnVtYmVyPiwgdmFsdWU6IG51bWJlcik6IG51bWJlciB7CiAgY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKHByaWNlcykKICAgIC5tYXAoTnVtYmVyKQogICAgLnNvcnQoKGEsIGIpID0+IGEgLSBiKTsKICBmb3IgKGNvbnN0IGsgb2Yga2V5cykgewogICAgaWYgKHZhbHVlIDw9IGspIHJldHVybiBwcmljZXNbU3RyaW5nKGspXTsKICB9CiAgcmV0dXJuIHByaWNlc1tTdHJpbmcoa2V5c1trZXlzLmxlbmd0aCAtIDFdKV07Cn0KCmV4cG9ydCBmdW5jdGlvbiBlc3RpbWF0ZVByaWNlKAogIGNsYXNzZXM6IFZlaGljbGVDbGFzc1tdLAogIGNsYXNzSWQ6IHN0cmluZywKICB0cmlwVHlwZTogVHJpcFR5cGUsCiAgZGlzdGFuY2VLbTogbnVtYmVyLAogIGhvdXJzOiBudW1iZXIsCiAgcGF5bWVudE1ldGhvZDogUGF5bWVudE1ldGhvZCwKICBzZXR0aW5nczogU2V0dGluZ3MsCik6IG51bWJlciB7CiAgY29uc3QgY2xzID0gY2xhc3Nlcy5maW5kKChjKSA9PiBjLmlkID09PSBjbGFzc0lkKSA/PyBjbGFzc2VzWzBdOwogIGlmICghY2xzKSByZXR1cm4gMDsKICBsZXQgYmFzZSA9IDA7CiAgaWYgKHRyaXBUeXBlID09PSAnQnkgdGhlIGhvdXInKSB7CiAgICBiYXNlID0gbmVhcmVzdEJhbmQoY2xzLmhvdXJseVByaWNlcywgaG91cnMgfHwgc2V0dGluZ3MubWluSG91cmx5SG91cnMpOwogIH0gZWxzZSB7CiAgICBiYXNlID0gbmVhcmVzdEJhbmQoY2xzLmRpc3RhbmNlUHJpY2VzLCBkaXN0YW5jZUttIHx8IDYwKTsKICB9CiAgaWYgKHBheW1lbnRNZXRob2QgPT09ICdPbmxpbmUgbGluaycpIHsKICAgIGJhc2UgPSBNYXRoLnJvdW5kKGJhc2UgKiAoMSArIHNldHRpbmdzLm9ubGluZUZlZVBjdCAvIDEwMCkpOwogIH0KICByZXR1cm4gYmFzZTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGlzQnJvd3NlcigpOiBib29sZWFuIHsKICByZXR1cm4gdHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBsb2FkU3RvcmUoc2VlZDogKCkgPT4gU3RvcmVEYXRhKTogU3RvcmVEYXRhIHsKICBpZiAoIWlzQnJvd3NlcigpKSByZXR1cm4gc2VlZCgpOwogIHRyeSB7CiAgICBjb25zdCByYXcgPSB3aW5kb3cubG9jYWxTdG9yYWdlLmdldEl0ZW0oU1RPUkFHRV9LRVkpOwogICAgaWYgKCFyYXcpIHsKICAgICAgY29uc3QgZGF0YSA9IHNlZWQoKTsKICAgICAgd2luZG93LmxvY2FsU3RvcmFnZS5zZXRJdGVtKFNUT1JBR0VfS0VZLCBKU09OLnN0cmluZ2lmeShkYXRhKSk7CiAgICAgIHJldHVybiBkYXRhOwogICAgfQogICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZShyYXcpIGFzIFN0b3JlRGF0YTsKICAgIGlmICghcGFyc2VkIHx8ICFBcnJheS5pc0FycmF5KHBhcnNlZC5yaWRlcykgfHwgIUFycmF5LmlzQXJyYXkocGFyc2VkLmNsYXNzZXMpKSB7CiAgICAgIGNvbnN0IGRhdGEgPSBzZWVkKCk7CiAgICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShTVE9SQUdFX0tFWSwgSlNPTi5zdHJpbmdpZnkoZGF0YSkpOwogICAgICByZXR1cm4gZGF0YTsKICAgIH0KICAgIHJldHVybiBwYXJzZWQ7CiAgfSBjYXRjaCB7CiAgICByZXR1cm4gc2VlZCgpOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIHNhdmVTdG9yZShkYXRhOiBTdG9yZURhdGEpOiB2b2lkIHsKICBpZiAoIWlzQnJvd3NlcigpKSByZXR1cm47CiAgdHJ5IHsKICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShTVE9SQUdFX0tFWSwgSlNPTi5zdHJpbmdpZnkoZGF0YSkpOwogIH0gY2F0Y2ggewogICAgLy8gbG9jYWxTdG9yYWdlIHVuYXZhaWxhYmxlIChwcml2YXRlIG1vZGUgZXRjLikg4oCUIGluLW1lbW9yeSB1c2UgY29udGludWVzLgogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIHJlc2V0U3RvcmUoc2VlZDogKCkgPT4gU3RvcmVEYXRhKTogU3RvcmVEYXRhIHsKICBjb25zdCBkYXRhID0gc2VlZCgpOwogIHNhdmVTdG9yZShkYXRhKTsKICByZXR1cm4gZGF0YTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGlzU2lnbmVkSW4oKTogYm9vbGVhbiB7CiAgaWYgKCFpc0Jyb3dzZXIoKSkgcmV0dXJuIGZhbHNlOwogIHJldHVybiB3aW5kb3cuc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShTRVNTSU9OX0tFWSkgPT09ICcxJzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNldFNpZ25lZEluKHZhbHVlOiBib29sZWFuKTogdm9pZCB7CiAgaWYgKCFpc0Jyb3dzZXIoKSkgcmV0dXJuOwogIGlmICh2YWx1ZSkgd2luZG93LnNlc3Npb25TdG9yYWdlLnNldEl0ZW0oU0VTU0lPTl9LRVksICcxJyk7CiAgZWxzZSB3aW5kb3cuc2Vzc2lvblN0b3JhZ2UucmVtb3ZlSXRlbShTRVNTSU9OX0tFWSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBhZGRNZXNzYWdlKAogIGRhdGE6IFN0b3JlRGF0YSwKICBjaGFubmVsOiBNZXNzYWdlRW50cnlbJ2NoYW5uZWwnXSwKICB0bzogc3RyaW5nLAogIHN1YmplY3Q6IHN0cmluZywKKTogU3RvcmVEYXRhIHsKICBjb25zdCBlbnRyeTogTWVzc2FnZUVudHJ5ID0gewogICAgaWQ6IHVpZCgnbXNnJyksCiAgICBjaGFubmVsLAogICAgdG8sCiAgICBzdWJqZWN0LAogICAgc3RhdHVzOiAnU2VudCcsCiAgICBkYXRlOiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgfTsKICByZXR1cm4geyAuLi5kYXRhLCBtZXNzYWdlczogW2VudHJ5LCAuLi5kYXRhLm1lc3NhZ2VzXSB9Owp9CgovKiogUHVyZSBoZWxwZXIgdXNlZCBieSB0aGUgc21va2UgY2hlY2sgYW5kIHRoZSBVSTogY3JlYXRlIGEgcmlkZSArIHBheW1lbnQgKyBtZXNzYWdlLiAqLwpleHBvcnQgZnVuY3Rpb24gY3JlYXRlUmlkZSgKICBkYXRhOiBTdG9yZURhdGEsCiAgaW5wdXQ6IE9taXQ8UmlkZSwgJ2lkJyB8ICdyZWYnIHwgJ2NyZWF0ZWRBdCcgfCAncHJpY2UnIHwgJ3N0YXR1cycgfCAnY2hhdWZmZXVySWQnPiAmIHsKICAgIHByaWNlPzogbnVtYmVyOwogIH0sCik6IHsgZGF0YTogU3RvcmVEYXRhOyByaWRlOiBSaWRlIH0gewogIGNvbnN0IHByaWNlID0KICAgIGlucHV0LnByaWNlID8/CiAgICBlc3RpbWF0ZVByaWNlKAogICAgICBkYXRhLmNsYXNzZXMsCiAgICAgIGlucHV0LnZlaGljbGVDbGFzcywKICAgICAgaW5wdXQudHJpcFR5cGUsCiAgICAgIGlucHV0LmRpc3RhbmNlS20sCiAgICAgIGlucHV0LmhvdXJzLAogICAgICBpbnB1dC5wYXltZW50TWV0aG9kLAogICAgICBkYXRhLnNldHRpbmdzLAogICAgKTsKICBjb25zdCByaWRlOiBSaWRlID0gewogICAgLi4uaW5wdXQsCiAgICBpZDogdWlkKCdyaWRlJyksCiAgICByZWY6IGdlbmVyYXRlUmVmKGRhdGEucmlkZXMubWFwKChyKSA9PiByLnJlZikpLAogICAgY3JlYXRlZEF0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgICBwcmljZSwKICAgIHN0YXR1czogJ1VwY29taW5nJywKICAgIGNoYXVmZmV1cklkOiBudWxsLAogIH07CiAgbGV0IG5leHQ6IFN0b3JlRGF0YSA9IHsKICAgIC4uLmRhdGEsCiAgICByaWRlczogW3JpZGUsIC4uLmRhdGEucmlkZXNdLAogICAgcGF5bWVudHM6IFsKICAgICAgewogICAgICAgIGlkOiB1aWQoJ3BheScpLAogICAgICAgIHJpZGVSZWY6IHJpZGUucmVmLAogICAgICAgIGFtb3VudDogcHJpY2UsCiAgICAgICAgbWV0aG9kOiBpbnB1dC5wYXltZW50TWV0aG9kLAogICAgICAgIHN0YXR1czogJ1BlbmRpbmcnLAogICAgICAgIGRhdGU6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCksCiAgICAgIH0sCiAgICAgIC4uLmRhdGEucGF5bWVudHMsCiAgICBdLAogIH07CiAgbmV4dCA9IGFkZE1lc3NhZ2UobmV4dCwgJ1doYXRzQXBwJywgaW5wdXQuY3VzdG9tZXJOYW1lLCBgQm9va2luZyBjb25maXJtYXRpb24gJHtyaWRlLnJlZn1gKTsKICBjb25zdCBleGlzdHMgPSBuZXh0LmN1c3RvbWVycy5zb21lKAogICAgKGMpID0+IGMucGhvbmUgPT09IGlucHV0LnBob25lICYmIGMubmFtZSA9PT0gaW5wdXQuY3VzdG9tZXJOYW1lLAogICk7CiAgaWYgKCFleGlzdHMpIHsKICAgIG5leHQgPSB7CiAgICAgIC4uLm5leHQsCiAgICAgIGN1c3RvbWVyczogWwogICAgICAgIHsKICAgICAgICAgIGlkOiB1aWQoJ2N1c3QnKSwKICAgICAgICAgIG5hbWU6IGlucHV0LmN1c3RvbWVyTmFtZSwKICAgICAgICAgIHBob25lOiBpbnB1dC5waG9uZSwKICAgICAgICAgIGVtYWlsOiAnJywKICAgICAgICAgIGNvbXBhbnk6ICcnLAogICAgICAgICAgZmxhZ2dlZDogZmFsc2UsCiAgICAgICAgICBjcmVhdGVkQXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCksCiAgICAgICAgfSwKICAgICAgICAuLi5uZXh0LmN1c3RvbWVycywKICAgICAgXSwKICAgIH07CiAgfQogIHJldHVybiB7IGRhdGE6IG5leHQsIHJpZGUgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNoYW5nZVJpZGVTdGF0dXMoCiAgZGF0YTogU3RvcmVEYXRhLAogIHJpZGVJZDogc3RyaW5nLAogIHN0YXR1czogUmlkZVN0YXR1cywKKTogU3RvcmVEYXRhIHsKICBjb25zdCByaWRlID0gZGF0YS5yaWRlcy5maW5kKChyKSA9PiByLmlkID09PSByaWRlSWQpOwogIGlmICghcmlkZSkgcmV0dXJuIGRhdGE7CiAgY29uc3QgbmV4dDogU3RvcmVEYXRhID0gewogICAgLi4uZGF0YSwKICAgIHJpZGVzOiBkYXRhLnJpZGVzLm1hcCgocikgPT4gKHIuaWQgPT09IHJpZGVJZCA/IHsgLi4uciwgc3RhdHVzIH0gOiByKSksCiAgfTsKICByZXR1cm4gYWRkTWVzc2FnZShuZXh0LCAnRW1haWwnLCByaWRlLmN1c3RvbWVyTmFtZSwgYFJpZGUgJHtyaWRlLnJlZn0gc3RhdHVzIGNoYW5nZWQgdG8gJHtzdGF0dXN9YCk7Cn0K
+export type TripType =
+  | 'Airport pickup'
+  | 'Airport drop-off'
+  | 'Transfer'
+  | 'By the hour'
+  | 'City tour'
+  | 'Business'
+  | 'Wedding';
+
+export type RideStatus = 'Upcoming' | 'Live' | 'Completed' | 'Cancelled';
+export type PaymentMethod =
+  | 'Cash'
+  | 'Card terminal'
+  | 'Online link'
+  | 'Bank transfer'
+  | 'Corporate invoice';
+export type PaymentStatus = 'Pending' | 'Collected' | 'Reconciled';
+
+export interface Ride {
+  id: string;
+  ref: string;
+  customerName: string;
+  phone: string;
+  tripType: TripType;
+  pickup: string;
+  dropoff: string;
+  date: string; // YYYY-MM-DD
+  time: string; // HH:MM
+  passengers: number;
+  luggage: number;
+  paymentMethod: PaymentMethod;
+  nameBoard: string;
+  notes: string;
+  vehicleClass: string;
+  distanceKm: number;
+  hours: number;
+  price: number;
+  status: RideStatus;
+  chauffeurId: string | null;
+  createdAt: string;
+}
+
+export interface Chauffeur {
+  id: string;
+  name: string;
+  phone: string;
+  status: 'On duty' | 'Off duty' | 'On a ride' | 'Online';
+  licenceExpiry: string;
+  documentExpiry: string;
+  cashHeld: number;
+}
+
+export interface Vehicle {
+  id: string;
+  name: string;
+  classId: string;
+  plate: string;
+  mulkiyaExpiry: string;
+  insuranceExpiry: string;
+  rtaExpiry: string;
+  status: 'Active' | 'Maintenance';
+  defaultChauffeurId: string | null;
+}
+
+export interface Customer {
+  id: string;
+  name: string;
+  phone: string;
+  email: string;
+  company: string;
+  flagged: boolean;
+  createdAt: string;
+}
+
+export interface Payment {
+  id: string;
+  rideRef: string;
+  amount: number;
+  method: PaymentMethod;
+  status: PaymentStatus;
+  date: string;
+}
+
+export interface VehicleClass {
+  id: string;
+  name: string;
+  description: string;
+  distancePrices: Record<string, number>; // keys: 60,100,150,200,300,400
+  hourlyPrices: Record<string, number>; // keys: 2,4,6,8,10
+}
+
+export interface PricingRule {
+  id: string;
+  title: string;
+  description: string;
+  amount: string;
+}
+
+export interface TollGate {
+  id: string;
+  name: string;
+  city: 'Dubai' | 'Abu Dhabi';
+  type: 'Salik' | 'Darb';
+  verified: boolean;
+}
+
+export interface AirportTerminal {
+  name: string;
+  meetingPoint: string;
+  fee: number;
+  cost: number;
+}
+
+export interface Airport {
+  id: string;
+  code: string;
+  name: string;
+  terminals: AirportTerminal[];
+}
+
+export interface PromoCode {
+  id: string;
+  code: string;
+  discountPct: number;
+  active: boolean;
+  redemptions: number;
+}
+
+export interface Campaign {
+  id: string;
+  title: string;
+  message: string;
+  status: 'Draft' | 'Sent';
+  createdAt: string;
+}
+
+export interface MessageEntry {
+  id: string;
+  channel: 'Email' | 'SMS' | 'WhatsApp';
+  to: string;
+  subject: string;
+  status: 'Sent' | 'Failed' | 'Log mode';
+  date: string;
+}
+
+export interface Settings {
+  extraStopFee: number;
+  freeWaitingAirport: number;
+  freeWaitingElse: number;
+  freeCancelHours: number;
+  lateFee50UntilHours: number;
+  lateFee100AfterHours: number;
+  onlineFeePct: number;
+  minNoticeMinutes: number;
+  minHourlyHours: number;
+  quoteValidMinutes: number;
+  vatRegistered: boolean;
+  onlineBooking: boolean;
+}
+
+export interface StoreData {
+  rides: Ride[];
+  customers: Customer[];
+  chauffeurs: Chauffeur[];
+  vehicles: Vehicle[];
+  payments: Payment[];
+  classes: VehicleClass[];
+  pricingRules: PricingRule[];
+  tollGates: TollGate[];
+  airports: Airport[];
+  promos: PromoCode[];
+  campaigns: Campaign[];
+  messages: MessageEntry[];
+  settings: Settings;
+  adminHash: string | null;
+}
+
+export const STORAGE_KEY = 'chaufflor-demo-v1';
+export const SESSION_KEY = 'chaufflor-demo-session';
+
+export function uid(prefix: string): string {
+  return `${prefix}-${Math.random().toString(36).slice(2, 8)}-${Date.now().toString(36)}`;
+}
+
+export function todayStr(offsetDays = 0): string {
+  const d = new Date();
+  d.setDate(d.getDate() + offsetDays);
+  return d.toISOString().slice(0, 10);
+}
+
+export function generateRef(existing: string[]): string {
+  let ref = '';
+  do {
+    ref = `CH-2026-${String(Math.floor(1000 + Math.random() * 9000))}`;
+  } while (existing.includes(ref));
+  return ref;
+}
+
+/** Demo-only hash (not production security). Never use for real passwords. */
+export function demoHash(password: string): string {
+  let h1 = 0xdeadbeef;
+  let h2 = 0x41c6ce57;
+  const salted = `chaufflor-demo::${password}`;
+  for (let i = 0; i < salted.length; i++) {
+    const ch = salted.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  return `${(h2 >>> 0).toString(16)}${(h1 >>> 0).toString(16)}`;
+}
+
+function nearestBand(prices: Record<string, number>, value: number): number {
+  const keys = Object.keys(prices)
+    .map(Number)
+    .sort((a, b) => a - b);
+  for (const k of keys) {
+    if (value <= k) return prices[String(k)];
+  }
+  return prices[String(keys[keys.length - 1])];
+}
+
+export function estimatePrice(
+  classes: VehicleClass[],
+  classId: string,
+  tripType: TripType,
+  distanceKm: number,
+  hours: number,
+  paymentMethod: PaymentMethod,
+  settings: Settings,
+): number {
+  const cls = classes.find((c) => c.id === classId) ?? classes[0];
+  if (!cls) return 0;
+  let base = 0;
+  if (tripType === 'By the hour') {
+    base = nearestBand(cls.hourlyPrices, hours || settings.minHourlyHours);
+  } else {
+    base = nearestBand(cls.distancePrices, distanceKm || 60);
+  }
+  if (paymentMethod === 'Online link') {
+    base = Math.round(base * (1 + settings.onlineFeePct / 100));
+  }
+  return base;
+}
+
+export function isBrowser(): boolean {
+  return typeof window !== 'undefined';
+}
+
+export function loadStore(seed: () => StoreData): StoreData {
+  if (!isBrowser()) return seed();
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      const data = seed();
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      return data;
+    }
+    const parsed = JSON.parse(raw) as StoreData;
+    if (!parsed || !Array.isArray(parsed.rides) || !Array.isArray(parsed.classes)) {
+      const data = seed();
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+      return data;
+    }
+    return parsed;
+  } catch {
+    return seed();
+  }
+}
+
+export function saveStore(data: StoreData): void {
+  if (!isBrowser()) return;
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  } catch {
+    // localStorage unavailable (private mode etc.) — in-memory use continues.
+  }
+}
+
+export function resetStore(seed: () => StoreData): StoreData {
+  const data = seed();
+  saveStore(data);
+  return data;
+}
+
+export function isSignedIn(): boolean {
+  if (!isBrowser()) return false;
+  return window.sessionStorage.getItem(SESSION_KEY) === '1';
+}
+
+export function setSignedIn(value: boolean): void {
+  if (!isBrowser()) return;
+  if (value) window.sessionStorage.setItem(SESSION_KEY, '1');
+  else window.sessionStorage.removeItem(SESSION_KEY);
+}
+
+export function addMessage(
+  data: StoreData,
+  channel: MessageEntry['channel'],
+  to: string,
+  subject: string,
+): StoreData {
+  const entry: MessageEntry = {
+    id: uid('msg'),
+    channel,
+    to,
+    subject,
+    status: 'Sent',
+    date: new Date().toISOString(),
+  };
+  return { ...data, messages: [entry, ...data.messages] };
+}
+
+/** Pure helper used by the smoke check and the UI: create a ride + payment + message. */
+export function createRide(
+  data: StoreData,
+  input: Omit<Ride, 'id' | 'ref' | 'createdAt' | 'price' | 'status' | 'chauffeurId'> & {
+    price?: number;
+  },
+): { data: StoreData; ride: Ride } {
+  const price =
+    input.price ??
+    estimatePrice(
+      data.classes,
+      input.vehicleClass,
+      input.tripType,
+      input.distanceKm,
+      input.hours,
+      input.paymentMethod,
+      data.settings,
+    );
+  const ride: Ride = {
+    ...input,
+    id: uid('ride'),
+    ref: generateRef(data.rides.map((r) => r.ref)),
+    createdAt: new Date().toISOString(),
+    price,
+    status: 'Upcoming',
+    chauffeurId: null,
+  };
+  let next: StoreData = {
+    ...data,
+    rides: [ride, ...data.rides],
+    payments: [
+      {
+        id: uid('pay'),
+        rideRef: ride.ref,
+        amount: price,
+        method: input.paymentMethod,
+        status: 'Pending',
+        date: new Date().toISOString().slice(0, 10),
+      },
+      ...data.payments,
+    ],
+  };
+  next = addMessage(next, 'WhatsApp', input.customerName, `Booking confirmation ${ride.ref}`);
+  const exists = next.customers.some(
+    (c) => c.phone === input.phone && c.name === input.customerName,
+  );
+  if (!exists) {
+    next = {
+      ...next,
+      customers: [
+        {
+          id: uid('cust'),
+          name: input.customerName,
+          phone: input.phone,
+          email: '',
+          company: '',
+          flagged: false,
+          createdAt: new Date().toISOString().slice(0, 10),
+        },
+        ...next.customers,
+      ],
+    };
+  }
+  return { data: next, ride };
+}
+
+export function changeRideStatus(
+  data: StoreData,
+  rideId: string,
+  status: RideStatus,
+): StoreData {
+  const ride = data.rides.find((r) => r.id === rideId);
+  if (!ride) return data;
+  const next: StoreData = {
+    ...data,
+    rides: data.rides.map((r) => (r.id === rideId ? { ...r, status } : r)),
+  };
+  return addMessage(next, 'Email', ride.customerName, `Ride ${ride.ref} status changed to ${status}`);
+}
