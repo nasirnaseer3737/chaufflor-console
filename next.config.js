@@ -1,1 +1,8 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ25leHQnKS5OZXh0Q29uZmlnfSAqLwpjb25zdCBuZXh0Q29uZmlnID0gewogIG91dHB1dDogJ2V4cG9ydCcsCiAgdHJhaWxpbmdTbGFzaDogdHJ1ZSwKICBiYXNlUGF0aDogcHJvY2Vzcy5lbnYuR0hfUEFHRVMgPyAnL2NoYXVmZmxvci1jb25zb2xlJyA6ICcnLAogIGltYWdlczogeyB1bm9wdGltaXplZDogdHJ1ZSB9LAp9Owptb2R1bGUuZXhwb3J0cyA9IG5leHRDb25maWc7Cg==
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+  basePath: process.env.GH_PAGES ? '/chaufflor-console' : '',
+  images: { unoptimized: true },
+};
+module.exports = nextConfig;
