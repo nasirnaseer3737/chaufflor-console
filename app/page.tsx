@@ -1,1 +1,107 @@
-aW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJzsKaW1wb3J0IHsgREVNT19DTEFTU0VTIH0gZnJvbSAnLi4vbGliL3NlZWQnOwoKY29uc3QgU0VSVklDRVMgPSBbCiAgWydBaXJwb3J0IHBpY2t1cCcsICdNZWV0ICYgZ3JlZXQgd2l0aCBhIG5hbWUgYm9hcmQsIGZsaWdodC1hd2FyZSB3YWl0aW5nLiddLAogIFsnQWlycG9ydCBkcm9wLW9mZicsICdPbi10aW1lIGRyb3Atb2ZmIHdpdGggbHVnZ2FnZSBoZWxwLiddLAogIFsnVHJhbnNmZXInLCAnUG9pbnQtdG8tcG9pbnQgcmlkZXMgYWNyb3NzIER1YmFpICYgQWJ1IERoYWJpLiddLAogIFsnQnkgdGhlIGhvdXInLCAnQSBjaGF1ZmZldXIgYXQgeW91ciBkaXNwb3NhbCBmb3IgMuKAkzEwIGhvdXJzLiddLAogIFsnQ2l0eSB0b3VyJywgJ1NpZ2h0c2VlaW5nIGF0IHlvdXIgb3duIHBhY2UsIG5vIHRheGkgcXVldWVzLiddLAogIFsnQnVzaW5lc3MnLCAnUHVuY3R1YWwsIGRpc2NyZWV0IHRyYXZlbCBmb3IgbWVldGluZ3MgJiBldmVudHMuJ10sCiAgWydXZWRkaW5nJywgJ0ZsYWdzaGlwIGNhcnMgZm9yIGEgbWVtb3JhYmxlIGRheS4nXSwKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7CiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJ0b3BuYXYiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJicmFuZCI+CiAgICAgICAgICBDSEFVRkZMT1I8c3Bhbj4tU1RZTEUgREVNTzwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8bmF2IGNsYXNzTmFtZT0ibmF2bGlua3MiPgogICAgICAgICAgPExpbmsgaHJlZj0iLyI+SG9tZTwvTGluaz4KICAgICAgICAgIDxMaW5rIGhyZWY9Ii9ib29rIj5Cb29rIG5vdzwvTGluaz4KICAgICAgICAgIDxMaW5rIGhyZWY9Ii9hZG1pbiI+QWRtaW4gY29uc29sZTwvTGluaz4KICAgICAgICAgIDxMaW5rIGNsYXNzTmFtZT0iYnRuIiBocmVmPSIvYm9vayI+CiAgICAgICAgICAgIEJvb2sgYSBjaGF1ZmZldXIKICAgICAgICAgIDwvTGluaz4KICAgICAgICA8L25hdj4KICAgICAgPC9oZWFkZXI+CiAgICAgIDxtYWluIGNsYXNzTmFtZT0id3JhcCI+CiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJoZXJvIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJraWNrZXIiPkR1YmFpIMK3IEFidSBEaGFiaSDCtyBEZW1vPC9kaXY+CiAgICAgICAgICA8aDE+CiAgICAgICAgICAgIEx1eHVyeSBjaGF1ZmZldXIgc2VydmljZSwgPGVtPndpdGhvdXQgdGhlIHN0cmVzcy48L2VtPgogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwPgogICAgICAgICAgICBFdmVyeSBqb3VybmV5LCBjaGF1ZmZldXIgYW5kIGRpcmhhbSDigJQgaW4gb25lIGNhbG0gcGxhY2UuIEFpcnBvcnQgdHJhbnNmZXJzLCBob3VybHkgaGlyZQogICAgICAgICAgICBhbmQgY2l0eSB0b3VycyBpbiBwcmVtaXVtIHZlaGljbGVzLCBkcml2ZW4gYnkgcHJvZmVzc2lvbmFsIGNoYXVmZmV1cnMuIFRoaXMgaXMgYSBkZW1vCiAgICAgICAgICAgIHdlYnNpdGU6IG5vIHJlYWwgYm9va2luZ3MsIHBheW1lbnRzIG9yIGRyaXZlcnMuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgPExpbmsgY2xhc3NOYW1lPSJidG4iIGhyZWY9Ii9ib29rIj4KICAgICAgICAgICAgICBCb29rIG5vdwogICAgICAgICAgICA8L0xpbms+eycgJ30KICAgICAgICAgICAgPExpbmsgY2xhc3NOYW1lPSJidG4gZ2hvc3QiIGhyZWY9Ii9hZG1pbiI+CiAgICAgICAgICAgICAgT3BlbiBhZG1pbiBjb25zb2xlCiAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icGlsbCI+MjQvNyBkZW1vIGJvb2tpbmc8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icGlsbCI+UHJpY2VzIGluIEFFRDwvc3Bhbj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJwaWxsIj5GcmVlIHdhaXRpbmcgNjAgbWluIGF0IGFpcnBvcnRzPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICA8aDI+U2VydmljZXM8L2gyPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQzIj4KICAgICAgICAgIHtTRVJWSUNFUy5tYXAoKFt0aXRsZSwgZGVzY10pID0+ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQiIGtleT17dGl0bGV9PgogICAgICAgICAgICAgIDxoMz57dGl0bGV9PC9oMz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im11dGVkIj57ZGVzY308L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxoMiBzdHlsZT17eyBtYXJnaW5Ub3A6IDM2IH19PkZsZWV0ICZhbXA7IGluZGljYXRpdmUgcHJpY2VzPC9oMj4KICAgICAgICA8cCBjbGFzc05hbWU9Im11dGVkIj4KICAgICAgICAgIEFsbC1pbmNsdXNpdmUgQUVEIHByaWNlcy4gRGlzdGFuY2UgYmFuZHMgNjDigJM0MDAga207IGhvdXJseSBwYWNrYWdlcyAy4oCTMTAgaG91cnMuIFRvbGxzIGFyZQogICAgICAgICAgaW5jbHVkZWQgaW4gdGhlIHByaWNlIGluIHRoaXMgZGVtby4KICAgICAgICA8L3A+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZDIiPgogICAgICAgICAge0RFTU9fQ0xBU1NFUy5tYXAoKGMpID0+ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQiIGtleT17Yy5pZH0+CiAgICAgICAgICAgICAgPGgzPntjLm5hbWV9PC9oMz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im11dGVkIj57Yy5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAgPHA+CiAgICAgICAgICAgICAgICBGcm9tIDxzcGFuIGNsYXNzTmFtZT0icHJpY2UiPkFFRCB7Yy5kaXN0YW5jZVByaWNlc1snNjAnXX08L3NwYW4+eycgJ30KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibXV0ZWQgc21hbGwiPnBlciA2MCBrbTwvc3Bhbj4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJzbWFsbCBtdXRlZCI+CiAgICAgICAgICAgICAgICAxMDAga20gQUVEIHtjLmRpc3RhbmNlUHJpY2VzWycxMDAnXX0gwrcgMjAwIGttIEFFRCB7Yy5kaXN0YW5jZVByaWNlc1snMjAwJ119IMK3IDQwMCBrbQogICAgICAgICAgICAgICAgQUVEIHtjLmRpc3RhbmNlUHJpY2VzWyc0MDAnXX0gwrcgMmggQUVEIHtjLmhvdXJseVByaWNlc1snMiddfSDCtyAxMGggQUVEeycgJ30KICAgICAgICAgICAgICAgIHtjLmhvdXJseVByaWNlc1snMTAnXX0KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxoMiBzdHlsZT17eyBtYXJnaW5Ub3A6IDM2IH19PlBvbGljaWVzIChkZW1vKTwvaDI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQiPgogICAgICAgICAgPHVsPgogICAgICAgICAgICA8bGk+RXh0cmEgc3RvcDogQUVEIDUwPC9saT4KICAgICAgICAgICAgPGxpPkZyZWUgd2FpdGluZzogNjAgbWludXRlcyBhdCBhaXJwb3J0cywgMTUgbWludXRlcyBlbHNld2hlcmU8L2xpPgogICAgICAgICAgICA8bGk+RnJlZSBjYW5jZWxsYXRpb24gdW50aWwgMTIgaG91cnMgYmVmb3JlIHBpY2t1cDwvbGk+CiAgICAgICAgICAgIDxsaT41MCUgZmVlIGZyb20gMTIgaG91cnMgdG8gMyBob3VycyBiZWZvcmUgcGlja3VwLCAxMDAlIGFmdGVyIHRoYXQ8L2xpPgogICAgICAgICAgICA8bGk+TWluaW11bSBib29raW5nIG5vdGljZTogMzAgbWludXRlcyDCtyBNaW5pbXVtIGhvdXJseSBib29raW5nOiAyIGhvdXJzPC9saT4KICAgICAgICAgICAgPGxpPk9ubGluZSBwYXltZW50IGxpbmsgZmVlOiA1JSDCtyBWQVQgbm90IHJlZ2lzdGVyZWQgKGRlbW8gc2V0dGluZ3MpPC9saT4KICAgICAgICAgIDwvdWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvbWFpbj4KICAgICAgPGZvb3Rlcj4KICAgICAgICBEZW1vIHByb2plY3Qgb25seSDigJQgbm90IGFmZmlsaWF0ZWQgd2l0aCB0aGUgcmVhbCBDaGF1ZmZsb3IsIG5vIHJlYWwgcGF5bWVudHMsIGRyaXZlcnMgb3IKICAgICAgICBkaXNwYXRjaC4gQWxsIGRhdGEgaW4gdGhpcyBkZW1vIGxpdmVzIGluIHlvdXIgYnJvd3Nlci4KICAgICAgPC9mb290ZXI+CiAgICA8Lz4KICApOwp9Cg==
+import Link from 'next/link';
+import { DEMO_CLASSES } from '../lib/seed';
+
+const SERVICES = [
+  ['Airport pickup', 'Meet & greet with a name board, flight-aware waiting.'],
+  ['Airport drop-off', 'On-time drop-off with luggage help.'],
+  ['Transfer', 'Point-to-point rides across Dubai & Abu Dhabi.'],
+  ['By the hour', 'A chauffeur at your disposal for 2–10 hours.'],
+  ['City tour', 'Sightseeing at your own pace, no taxi queues.'],
+  ['Business', 'Punctual, discreet travel for meetings & events.'],
+  ['Wedding', 'Flagship cars for a memorable day.'],
+];
+
+export default function Home() {
+  return (
+    <>
+      <header className="topnav">
+        <div className="brand">
+          CHAUFFLOR<span>-STYLE DEMO</span>
+        </div>
+        <nav className="navlinks">
+          <Link href="/">Home</Link>
+          <Link href="/book">Book now</Link>
+          <Link href="/admin">Admin console</Link>
+          <Link className="btn" href="/book">
+            Book a chauffeur
+          </Link>
+        </nav>
+      </header>
+      <main className="wrap">
+        <section className="hero">
+          <div className="kicker">Dubai · Abu Dhabi · Demo</div>
+          <h1>
+            Luxury chauffeur service, <em>without the stress.</em>
+          </h1>
+          <p>
+            Every journey, chauffeur and dirham — in one calm place. Airport transfers, hourly hire
+            and city tours in premium vehicles, driven by professional chauffeurs. This is a demo
+            website: no real bookings, payments or drivers.
+          </p>
+          <p>
+            <Link className="btn" href="/book">
+              Book now
+            </Link>{' '}
+            <Link className="btn ghost" href="/admin">
+              Open admin console
+            </Link>
+          </p>
+          <div>
+            <span className="pill">24/7 demo booking</span>
+            <span className="pill">Prices in AED</span>
+            <span className="pill">Free waiting 60 min at airports</span>
+          </div>
+        </section>
+
+        <h2>Services</h2>
+        <div className="grid grid3">
+          {SERVICES.map(([title, desc]) => (
+            <div className="card" key={title}>
+              <h3>{title}</h3>
+              <p className="muted">{desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <h2 style={{ marginTop: 36 }}>Fleet &amp; indicative prices</h2>
+        <p className="muted">
+          All-inclusive AED prices. Distance bands 60–400 km; hourly packages 2–10 hours. Tolls are
+          included in the price in this demo.
+        </p>
+        <div className="grid grid2">
+          {DEMO_CLASSES.map((c) => (
+            <div className="card" key={c.id}>
+              <h3>{c.name}</h3>
+              <p className="muted">{c.description}</p>
+              <p>
+                From <span className="price">AED {c.distancePrices['60']}</span>{' '}
+                <span className="muted small">per 60 km</span>
+              </p>
+              <p className="small muted">
+                100 km AED {c.distancePrices['100']} · 200 km AED {c.distancePrices['200']} · 400 km
+                AED {c.distancePrices['400']} · 2h AED {c.hourlyPrices['2']} · 10h AED{' '}
+                {c.hourlyPrices['10']}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <h2 style={{ marginTop: 36 }}>Policies (demo)</h2>
+        <div className="card">
+          <ul>
+            <li>Extra stop: AED 50</li>
+            <li>Free waiting: 60 minutes at airports, 15 minutes elsewhere</li>
+            <li>Free cancellation until 12 hours before pickup</li>
+            <li>50% fee from 12 hours to 3 hours before pickup, 100% after that</li>
+            <li>Minimum booking notice: 30 minutes · Minimum hourly booking: 2 hours</li>
+            <li>Online payment link fee: 5% · VAT not registered (demo settings)</li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        Demo project only — not affiliated with the real Chaufflor, no real payments, drivers or
+        dispatch. All data in this demo lives in your browser.
+      </footer>
+    </>
+  );
+}
