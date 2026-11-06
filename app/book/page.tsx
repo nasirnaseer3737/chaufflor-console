@@ -1,1 +1,49 @@
-J3VzZSBjbGllbnQnOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgdHlwZSB7IFN0b3JlRGF0YSB9IGZyb20gJy4uLy4uL2xpYi9zdG9yZSc7CmltcG9ydCB7IGxvYWRTdG9yZSB9IGZyb20gJy4uLy4uL2xpYi9zdG9yZSc7CmltcG9ydCB7IHNlZWRTdG9yZSB9IGZyb20gJy4uLy4uL2xpYi9zZWVkJzsKaW1wb3J0IEJvb2tpbmdGb3JtIGZyb20gJy4uLy4uL2NvbXBvbmVudHMvQm9va2luZ0Zvcm0nOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQm9va1BhZ2UoKSB7CiAgY29uc3QgW2RhdGEsIHNldERhdGFdID0gdXNlU3RhdGU8U3RvcmVEYXRhIHwgbnVsbD4obnVsbCk7CiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldERhdGEobG9hZFN0b3JlKHNlZWRTdG9yZSkpOwogIH0sIFtdKTsKICByZXR1cm4gKAogICAgPD4KICAgICAgPGhlYWRlciBjbGFzc05hbWU9InRvcG5hdiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJyYW5kIj4KICAgICAgICAgIENIQVVGRkxPUjxzcGFuPi1TVFlMRSBERU1PPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxuYXYgY2xhc3NOYW1lPSJuYXZsaW5rcyI+CiAgICAgICAgICA8TGluayBocmVmPSIvIj5Ib21lPC9MaW5rPgogICAgICAgICAgPExpbmsgaHJlZj0iL2Jvb2siPkJvb2sgbm93PC9MaW5rPgogICAgICAgICAgPExpbmsgaHJlZj0iL2FkbWluIj5BZG1pbiBjb25zb2xlPC9MaW5rPgogICAgICAgIDwvbmF2PgogICAgICA8L2hlYWRlcj4KICAgICAgPG1haW4gY2xhc3NOYW1lPSJ3cmFwIj4KICAgICAgICA8aDE+Qm9vayBhIGNoYXVmZmV1cjwvaDE+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdXRlZCI+CiAgICAgICAgICBGaWxsIGluIHRoZSB0cmlwLCBzZWUgYSBsaXZlIEFFRCBwcmljZSBlc3RpbWF0ZSwgYW5kIGNvbmZpcm0uIFlvdXIgYm9va2luZyBpcyBzdG9yZWQgb25seQogICAgICAgICAgaW4gdGhpcyBicm93c2VyIGFuZCBhcHBlYXJzIGluIHRoZSBhZG1pbiBjb25zb2xlJmFwb3M7cyBSaWRlcyBsaXN0LgogICAgICAgIDwvcD4KICAgICAgICB7ZGF0YSA/ICgKICAgICAgICAgIDxCb29raW5nRm9ybSBkYXRhPXtkYXRhfSBvbkNyZWF0ZWQ9eyhuZXh0KSA9PiBzZXREYXRhKG5leHQpfSAvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8cCBjbGFzc05hbWU9Im11dGVkIj5Mb2FkaW5nIGRlbW8gZGF0YeKApjwvcD4KICAgICAgICApfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIiBzdHlsZT17eyBtYXJnaW5Ub3A6IDE2IH19PgogICAgICAgICAgPGgzPlBvbGljaWVzPC9oMz4KICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNtYWxsIj4KICAgICAgICAgICAgPGxpPkV4dHJhIHN0b3AgQUVEIDUwIMK3IEZyZWUgd2FpdGluZyA2MCBtaW4gYXQgYWlycG9ydHMgLyAxNSBtaW4gZWxzZXdoZXJlPC9saT4KICAgICAgICAgICAgPGxpPkZyZWUgY2FuY2VsbGF0aW9uIHVudGlsIDEyaCBiZWZvcmUgcGlja3VwIMK3IDUwJSBmcm9tIDEyaCB0byAzaCBiZWZvcmUgwrcgMTAwJSBhZnRlcjwvbGk+CiAgICAgICAgICAgIDxsaT5RdW90ZSB2YWxpZCAyMCBtaW51dGVzIMK3IE1pbmltdW0gYm9va2luZyBub3RpY2UgMzAgbWludXRlczwvbGk+CiAgICAgICAgICA8L3VsPgogICAgICAgIDwvZGl2PgogICAgICA8L21haW4+CiAgICAgIDxmb290ZXI+RGVtbyBvbmx5IOKAlCBub3QgYWZmaWxpYXRlZCB3aXRoIHRoZSByZWFsIENoYXVmZmxvci48L2Zvb3Rlcj4KICAgIDwvPgogICk7Cn0K
+'use client';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import type { StoreData } from '../../lib/store';
+import { loadStore } from '../../lib/store';
+import { seedStore } from '../../lib/seed';
+import BookingForm from '../../components/BookingForm';
+
+export default function BookPage() {
+  const [data, setData] = useState<StoreData | null>(null);
+  useEffect(() => {
+    setData(loadStore(seedStore));
+  }, []);
+  return (
+    <>
+      <header className="topnav">
+        <div className="brand">
+          CHAUFFLOR<span>-STYLE DEMO</span>
+        </div>
+        <nav className="navlinks">
+          <Link href="/">Home</Link>
+          <Link href="/book">Book now</Link>
+          <Link href="/admin">Admin console</Link>
+        </nav>
+      </header>
+      <main className="wrap">
+        <h1>Book a chauffeur</h1>
+        <p className="muted">
+          Fill in the trip, see a live AED price estimate, and confirm. Your booking is stored only
+          in this browser and appears in the admin console&apos;s Rides list.
+        </p>
+        {data ? (
+          <BookingForm data={data} onCreated={(next) => setData(next)} />
+        ) : (
+          <p className="muted">Loading demo data…</p>
+        )}
+        <div className="card" style={{ marginTop: 16 }}>
+          <h3>Policies</h3>
+          <ul className="small">
+            <li>Extra stop AED 50 · Free waiting 60 min at airports / 15 min elsewhere</li>
+            <li>Free cancellation until 12h before pickup · 50% from 12h to 3h before · 100% after</li>
+            <li>Quote valid 20 minutes · Minimum booking notice 30 minutes</li>
+          </ul>
+        </div>
+      </main>
+      <footer>Demo only — not affiliated with the real Chaufflor.</footer>
+    </>
+  );
+}
