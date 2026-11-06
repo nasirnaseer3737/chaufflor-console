@@ -1,1 +1,203 @@
-aW1wb3J0IHR5cGUgewogIEFpcnBvcnQsCiAgQ2hhdWZmZXVyLAogIEN1c3RvbWVyLAogIFBheW1lbnQsCiAgUHJpY2luZ1J1bGUsCiAgUHJvbW9Db2RlLAogIFJpZGUsCiAgU2V0dGluZ3MsCiAgU3RvcmVEYXRhLAogIFRvbGxHYXRlLAogIFZlaGljbGUsCiAgVmVoaWNsZUNsYXNzLAp9IGZyb20gJy4vc3RvcmUnOwppbXBvcnQgeyB0b2RheVN0ciwgdWlkIH0gZnJvbSAnLi9zdG9yZSc7CgpleHBvcnQgY29uc3QgREVNT19DTEFTU0VTOiBWZWhpY2xlQ2xhc3NbXSA9IFsKICB7IGlkOiAnY29tZm9ydC1tcHYnLCBuYW1lOiAnQ29tZm9ydCBNUFYnLCBkZXNjcmlwdGlvbjogJ1NwYWNpb3VzIGZhbWlseSBNUFYgZm9yIHVwIHRvIDYgcGFzc2VuZ2Vycy4nLCBkaXN0YW5jZVByaWNlczogeyAnNjAnOiAyNTAsICcxMDAnOiAzNTAsICcxNTAnOiA0NTAsICcyMDAnOiA1NTAsICczMDAnOiA3NTAsICc0MDAnOiA5NTAgfSwgaG91cmx5UHJpY2VzOiB7ICcyJzogMzAwLCAnNCc6IDU1MCwgJzYnOiA4MDAsICc4JzogMTAwMCwgJzEwJzogMTIwMCB9IH0sCiAgeyBpZDogJ2J1c2luZXNzLXNlZGFuJywgbmFtZTogJ0J1c2luZXNzIFNlZGFuJywgZGVzY3JpcHRpb246ICdFeGVjdXRpdmUgc2VkYW4gZm9yIGJ1c2luZXNzIHRyYXZlbC4nLCBkaXN0YW5jZVByaWNlczogeyAnNjAnOiAzMDAsICcxMDAnOiA0MjAsICcxNTAnOiA1NTAsICcyMDAnOiA2ODAsICczMDAnOiA5MDAsICc0MDAnOiAxMTUwIH0sIGhvdXJseVByaWNlczogeyAnMic6IDM1MCwgJzQnOiA2NTAsICc2JzogOTUwLCAnOCc6IDEyMDAsICcxMCc6IDE0NTAgfSB9LAogIHsgaWQ6ICdidXNpbmVzcy1tcHYnLCBuYW1lOiAnQnVzaW5lc3MgTVBWJywgZGVzY3JpcHRpb246ICdQcmVtaXVtIE1QViB3aXRoIGV4dHJhIGx1Z2dhZ2Ugc3BhY2UuJywgZGlzdGFuY2VQcmljZXM6IHsgJzYwJzogMzUwLCAnMTAwJzogNDgwLCAnMTUwJzogNjIwLCAnMjAwJzogNzgwLCAnMzAwJzogMTA1MCwgJzQwMCc6IDEzMDAgfSwgaG91cmx5UHJpY2VzOiB7ICcyJzogNDAwLCAnNCc6IDc1MCwgJzYnOiAxMTAwLCAnOCc6IDE0MDAsICcxMCc6IDE3MDAgfSB9LAogIHsgaWQ6ICdwcmVtaXVtLXN1dicsIG5hbWU6ICdQcmVtaXVtIFNVVicsIGRlc2NyaXB0aW9uOiAnTHV4dXJ5IFNVViBmb3IgY29tZm9ydCBhbmQgcHJlc2VuY2UuJywgZGlzdGFuY2VQcmljZXM6IHsgJzYwJzogNDAwLCAnMTAwJzogNTUwLCAnMTUwJzogNzAwLCAnMjAwJzogOTAwLCAnMzAwJzogMTIwMCwgJzQwMCc6IDE1MDAgfSwgaG91cmx5UHJpY2VzOiB7ICcyJzogNDUwLCAnNCc6IDg1MCwgJzYnOiAxMjUwLCAnOCc6IDE2MDAsICcxMCc6IDE5NTAgfSB9LAogIHsgaWQ6ICdidXNpbmVzcy12YW4nLCBuYW1lOiAnQnVzaW5lc3MgVmFuJywgZGVzY3JpcHRpb246ICdHcm91cCB0cmF2ZWwgZm9yIHVwIHRvIDggcGFzc2VuZ2Vycy4nLCBkaXN0YW5jZVByaWNlczogeyAnNjAnOiA0NTAsICcxMDAnOiA2MDAsICcxNTAnOiA4MDAsICcyMDAnOiAxMDAwLCAnMzAwJzogMTM1MCwgJzQwMCc6IDE3MDAgfSwgaG91cmx5UHJpY2VzOiB7ICcyJzogNTAwLCAnNCc6IDk1MCwgJzYnOiAxNDAwLCAnOCc6IDE4MDAsICcxMCc6IDIyMDAgfSB9LAogIHsgaWQ6ICdleGVjdXRpdmUtc3V2JywgbmFtZTogJ0V4ZWN1dGl2ZSBTVVYnLCBkZXNjcmlwdGlvbjogJ0ZsYWdzaGlwIFNVViwgY2hhdWZmZXVyLWRyaXZlbiBpbiBzdHlsZS4nLCBkaXN0YW5jZVByaWNlczogeyAnNjAnOiA1NTAsICcxMDAnOiA3NTAsICcxNTAnOiA5NTAsICcyMDAnOiAxMjAwLCAnMzAwJzogMTYwMCwgJzQwMCc6IDIwMDAgfSwgaG91cmx5UHJpY2VzOiB7ICcyJzogNjAwLCAnNCc6IDExNTAsICc2JzogMTcwMCwgJzgnOiAyMjAwLCAnMTAnOiAyNzAwIH0gfSwKICB7IGlkOiAnZmlyc3QtY2xhc3MnLCBuYW1lOiAnRmlyc3QgQ2xhc3MnLCBkZXNjcmlwdGlvbjogJ1RvcC10aWVyIGx1eHVyeSDigJQgdGhlIGZsYWdzaGlwIGV4cGVyaWVuY2UuJywgZGlzdGFuY2VQcmljZXM6IHsgJzYwJzogNzAwLCAnMTAwJzogOTUwLCAnMTUwJzogMTIwMCwgJzIwMCc6IDE1MDAsICczMDAnOiAyMDAwLCAnNDAwJzogMjUwMCB9LCBob3VybHlQcmljZXM6IHsgJzInOiA4MDAsICc0JzogMTUwMCwgJzYnOiAyMjAwLCAnOCc6IDI4MDAsICcxMCc6IDM0MDAgfSB9LApdOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfU0VUVElOR1M6IFNldHRpbmdzID0gewogIGV4dHJhU3RvcEZlZTogNTAsCiAgZnJlZVdhaXRpbmdBaXJwb3J0OiA2MCwKICBmcmVlV2FpdGluZ0Vsc2U6IDE1LAogIGZyZWVDYW5jZWxIb3VyczogMTIsCiAgbGF0ZUZlZTUwVW50aWxIb3VyczogMTIsCiAgbGF0ZUZlZTEwMEFmdGVySG91cnM6IDMsCiAgb25saW5lRmVlUGN0OiA1LAogIG1pbk5vdGljZU1pbnV0ZXM6IDMwLAogIG1pbkhvdXJseUhvdXJzOiAyLAogIHF1b3RlVmFsaWRNaW51dGVzOiAyMCwKICB2YXRSZWdpc3RlcmVkOiBmYWxzZSwKICBvbmxpbmVCb29raW5nOiB0cnVlLAp9OwoKZnVuY3Rpb24gZGVtb0N1c3RvbWVycygpOiBDdXN0b21lcltdIHsKICBjb25zdCBuYW1lczogQXJyYXk8W3N0cmluZywgc3RyaW5nLCBzdHJpbmddPiA9IFsKICAgIFsnQWlzaGEgS2hhbicsICcrOTcxIDUwIDExMSAyMjMzJywgJ2Fpc2hhQGV4YW1wbGUuY29tJ10sCiAgICBbJ09tYXIgRmFyb3VrJywgJys5NzEgNTUgMjIyIDMzNDQnLCAnb21hckBleGFtcGxlLmNvbSddLAogICAgWydTYXJhIEFobWVkJywgJys5NzEgNTIgMzMzIDQ0NTUnLCAnc2FyYUBleGFtcGxlLmNvbSddLAogICAgWydKYW1lcyBXaWxzb24nLCAnKzQ0IDc3MDAgOTAwMTIzJywgJ2phbWVzQGV4YW1wbGUuY29tJ10sCiAgICBbJ0xheWxhIEhhc3NhbicsICcrOTcxIDU2IDQ0NCA1NTY2JywgJ2xheWxhQGV4YW1wbGUuY29tJ10sCiAgICBbJ0RhdmlkIENoZW4nLCAnKzk3MSA1MCA1NTUgNjY3NycsICdkYXZpZEBleGFtcGxlLmNvbSddLAogICAgWydOb29yIEFsaScsICcrOTcxIDU0IDY2NiA3Nzg4JywgJ25vb3JAZXhhbXBsZS5jb20nXSwKICAgIFsnRW1tYSBCcm93bicsICcrNDQgNzcwMCA5MDA0NTYnLCAnZW1tYUBleGFtcGxlLmNvbSddLAogIF07CiAgcmV0dXJuIG5hbWVzLm1hcCgoW25hbWUsIHBob25lLCBlbWFpbF0sIGkpID0+ICh7CiAgICBpZDogdWlkKCdjdXN0JyksCiAgICBuYW1lLAogICAgcGhvbmUsCiAgICBlbWFpbCwKICAgIGNvbXBhbnk6ICcnLAogICAgZmxhZ2dlZDogZmFsc2UsCiAgICBjcmVhdGVkQXQ6IHRvZGF5U3RyKC0oaSArIDEpKSwKICB9KSk7Cn0KCmZ1bmN0aW9uIGRlbW9DaGF1ZmZldXJzKCk6IENoYXVmZmV1cltdIHsKICByZXR1cm4gWwogICAgeyBpZDogdWlkKCdkcnYnKSwgbmFtZTogJ0JpbGFsIEh1c3NhaW4nLCBwaG9uZTogJys5NzEgNTAgMTAwIDIwMDEnLCBzdGF0dXM6ICdPZmYgZHV0eScsIGxpY2VuY2VFeHBpcnk6IHRvZGF5U3RyKDE4MCksIGRvY3VtZW50RXhwaXJ5OiB0b2RheVN0cig5MCksIGNhc2hIZWxkOiAwIH0sCiAgICB7IGlkOiB1aWQoJ2RydicpLCBuYW1lOiAnS2FyaW0gSGFkZGFkJywgcGhvbmU6ICcrOTcxIDUwIDEwMCAyMDAyJywgc3RhdHVzOiAnT24gZHV0eScsIGxpY2VuY2VFeHBpcnk6IHRvZGF5U3RyKDI1KSwgZG9jdW1lbnRFeHBpcnk6IHRvZGF5U3RyKDIwMCksIGNhc2hIZWxkOiAwIH0sCiAgICB7IGlkOiB1aWQoJ2RydicpLCBuYW1lOiAnVGFyaXEgQXppeicsIHBob25lOiAnKzk3MSA1MCAxMDAgMjAwMycsIHN0YXR1czogJ09mZiBkdXR5JywgbGljZW5jZUV4cGlyeTogdG9kYXlTdHIoMzAwKSwgZG9jdW1lbnRFeHBpcnk6IHRvZGF5U3RyKDEyKSwgY2FzaEhlbGQ6IDAgfSwKICBdOwp9CgpmdW5jdGlvbiBkZW1vVmVoaWNsZXMoY2hhdWZmZXVyczogQ2hhdWZmZXVyW10pOiBWZWhpY2xlW10gewogIGNvbnN0IHJvd3M6IEFycmF5PFtzdHJpbmcsIHN0cmluZywgc3RyaW5nXT4gPSBbCiAgICBbJ0NvbWZvcnQgTVBWJywgJ2NvbWZvcnQtbXB2JywgJ0RYQi0xMDAxJ10sCiAgICBbJ0J1c2luZXNzIFNlZGFuJywgJ2J1c2luZXNzLXNlZGFuJywgJ0RYQi0xMDAyJ10sCiAgICBbJ0J1c2luZXNzIFNlZGFuJywgJ2J1c2luZXNzLXNlZGFuJywgJ0RYQi0xMDAzJ10sCiAgICBbJ0J1c2luZXNzIFNlZGFuJywgJ2J1c2luZXNzLXNlZGFuJywgJ0RYQi0xMDA0J10sCiAgICBbJ0ZpcnN0IENsYXNzJywgJ2ZpcnN0LWNsYXNzJywgJ0RYQi0xMDA1J10sCiAgICBbJ0V4ZWN1dGl2ZSBTVVYnLCAnZXhlY3V0aXZlLXN1dicsICdEWEItMTAwNiddLAogICAgWydQcmVtaXVtIFNVVicsICdwcmVtaXVtLXN1dicsICdEWEItMTAwNyddLAogICAgWydCdXNpbmVzcyBWYW4nLCAnYnVzaW5lc3MtdmFuJywgJ0RYQi0xMDA4J10sCiAgICBbJ0J1c2luZXNzIE1QVicsICdidXNpbmVzcy1tcHYnLCAnRFhCLTEwMDknXSwKICBdOwogIHJldHVybiByb3dzLm1hcCgoW25hbWUsIGNsYXNzSWQsIHBsYXRlXSwgaSkgPT4gKHsKICAgIGlkOiB1aWQoJ3ZlaCcpLAogICAgbmFtZTogYCR7bmFtZX0gJHtpICsgMX1gLAogICAgY2xhc3NJZCwKICAgIHBsYXRlLAogICAgbXVsa2l5YUV4cGlyeTogaSA9PT0gMSA/IHRvZGF5U3RyKC0xMCkgOiB0b2RheVN0cigxMjAgKyBpICogMjApLAogICAgaW5zdXJhbmNlRXhwaXJ5OiBpID09PSAzID8gdG9kYXlTdHIoLTUpIDogdG9kYXlTdHIoMTUwICsgaSAqIDE1KSwKICAgIHJ0YUV4cGlyeTogdG9kYXlTdHIoMjAwICsgaSAqIDEwKSwKICAgIHN0YXR1czogJ0FjdGl2ZScsCiAgICBkZWZhdWx0Q2hhdWZmZXVySWQ6IGkgPT09IDAgPyBjaGF1ZmZldXJzWzBdLmlkIDogbnVsbCwKICB9KSk7Cn0KCmZ1bmN0aW9uIGRlbW9SaWRlcyhjdXN0b21lcnM6IEN1c3RvbWVyW10sIGNoYXVmZmV1cnM6IENoYXVmZmV1cltdKTogUmlkZVtdIHsKICBjb25zdCBjID0gKGk6IG51bWJlcikgPT4gY3VzdG9tZXJzW2kgJSBjdXN0b21lcnMubGVuZ3RoXTsKICBjb25zdCBtayA9ICgKICAgIHJlZjogc3RyaW5nLAogICAgY2k6IG51bWJlciwKICAgIHRyaXA6IFJpZGVbJ3RyaXBUeXBlJ10sCiAgICBwaWNrdXA6IHN0cmluZywKICAgIGRyb3BvZmY6IHN0cmluZywKICAgIGRheTogbnVtYmVyLAogICAgdGltZTogc3RyaW5nLAogICAgY2xzOiBzdHJpbmcsCiAgICBwcmljZTogbnVtYmVyLAogICAgc3RhdHVzOiBSaWRlWydzdGF0dXMnXSwKICAgIGNoYXVmZmV1cjogQ2hhdWZmZXVyIHwgbnVsbCwKICAgIGRpc3RhbmNlS20gPSA2MCwKICAgIGhvdXJzID0gMiwKICApOiBSaWRlID0+ICh7CiAgICBpZDogdWlkKCdyaWRlJyksCiAgICByZWYsCiAgICBjdXN0b21lck5hbWU6IGMoY2kpLm5hbWUsCiAgICBwaG9uZTogYyhjaSkucGhvbmUsCiAgICB0cmlwVHlwZTogdHJpcCwKICAgIHBpY2t1cCwKICAgIGRyb3BvZmYsCiAgICBkYXRlOiB0b2RheVN0cihkYXkpLAogICAgdGltZSwKICAgIHBhc3NlbmdlcnM6IDIsCiAgICBsdWdnYWdlOiAyLAogICAgcGF5bWVudE1ldGhvZDogJ0NhcmQgdGVybWluYWwnLAogICAgbmFtZUJvYXJkOiAnJywKICAgIG5vdGVzOiAnRGVtbyBib29raW5nIOKAlCBpbnZlbnRlZCBkYXRhIG9ubHkuJywKICAgIHZlaGljbGVDbGFzczogY2xzLAogICAgZGlzdGFuY2VLbSwKICAgIGhvdXJzLAogICAgcHJpY2UsCiAgICBzdGF0dXMsCiAgICBjaGF1ZmZldXJJZDogY2hhdWZmZXVyID8gY2hhdWZmZXVyLmlkIDogbnVsbCwKICAgIGNyZWF0ZWRBdDogdG9kYXlTdHIoZGF5IC0gMSksCiAgfSk7CiAgcmV0dXJuIFsKICAgIG1rKCdDSC0yMDI2LTEwMDEnLCAwLCAnQWlycG9ydCBwaWNrdXAnLCAnRHViYWkgSW50ZXJuYXRpb25hbCAoRFhCKSBUZXJtaW5hbCAzJywgJ0Rvd250b3duIER1YmFpJywgMCwgJzE4OjMwJywgJ2NvbWZvcnQtbXB2JywgMjUwLCAnVXBjb21pbmcnLCBudWxsKSwKICAgIG1rKCdDSC0yMDI2LTEwMDInLCAxLCAnVHJhbnNmZXInLCAnRHViYWkgTWFyaW5hJywgJ0FidSBEaGFiaSBDb3JuaWNoZScsIDEsICcwOTowMCcsICdidXNpbmVzcy1zZWRhbicsIDQyMCwgJ1VwY29taW5nJywgbnVsbCwgMTUwKSwKICAgIG1rKCdDSC0yMDI2LTEwMDMnLCAyLCAnQnkgdGhlIGhvdXInLCAnUGFsbSBKdW1laXJhaCcsICdQYWxtIEp1bWVpcmFoJywgMSwgJzE0OjAwJywgJ3ByZW1pdW0tc3V2JywgODUwLCAnVXBjb21pbmcnLCBudWxsLCA2MCwgNCksCiAgICBtaygnQ0gtMjAyNi0xMDA0JywgMywgJ0FpcnBvcnQgZHJvcC1vZmYnLCAnSkJSLCBEdWJhaScsICdEdWJhaSBJbnRlcm5hdGlvbmFsIChEWEIpIFRlcm1pbmFsIDEnLCAyLCAnMDc6MDAnLCAnYnVzaW5lc3MtbXB2JywgNDgwLCAnVXBjb21pbmcnLCBudWxsLCAxMDApLAogICAgbWsoJ0NILTIwMjYtMTAwNScsIDQsICdBaXJwb3J0IHBpY2t1cCcsICdaYXllZCBJbnRlcm5hdGlvbmFsIChBVUgpJywgJ1lhcyBJc2xhbmQnLCAwLCAnMjA6MTUnLCAnZXhlY3V0aXZlLXN1dicsIDc1MCwgJ0xpdmUnLCBjaGF1ZmZldXJzWzFdKSwKICAgIG1rKCdDSC0yMDI2LTEwMDYnLCA1LCAnVHJhbnNmZXInLCAnQnVzaW5lc3MgQmF5JywgJ0R1YmFpIEFpcnBvcnQgRnJlZSBab25lJywgLTIsICcxMDowMCcsICdjb21mb3J0LW1wdicsIDI1MCwgJ0NvbXBsZXRlZCcsIGNoYXVmZmV1cnNbMF0pLAogICAgbWsoJ0NILTIwMjYtMTAwNycsIDYsICdDaXR5IHRvdXInLCAnQnVyaiBLaGFsaWZhJywgJ0R1YmFpIE9sZCBUb3duJywgLTUsICcxNTowMCcsICdjb21mb3J0LW1wdicsIDU1MCwgJ0NvbXBsZXRlZCcsIGNoYXVmZmV1cnNbMF0sIDYwLCA0KSwKICAgIG1rKCdDSC0yMDI2LTEwMDgnLCA3LCAnQnVzaW5lc3MnLCAnRElGQycsICdEdWJhaSBXb3JsZCBUcmFkZSBDZW50cmUnLCAtMywgJzExOjAwJywgJ2ZpcnN0LWNsYXNzJywgNzAwLCAnQ2FuY2VsbGVkJywgbnVsbCksCiAgICBtaygnQ0gtMjAyNi0xMDA5JywgMCwgJ1dlZGRpbmcnLCAnQWwgQmFyYXJpJywgJ0F0bGFudGlzLCBUaGUgUGFsbScsIDMsICcxNzowMCcsICdmaXJzdC1jbGFzcycsIDE1MDAsICdVcGNvbWluZycsIG51bGwsIDEwMCksCiAgICBtaygnQ0gtMjAyNi0xMDEwJywgMSwgJ0FpcnBvcnQgcGlja3VwJywgJ1NoYXJqYWggSW50ZXJuYXRpb25hbCAoU0hKKScsICdBbCBNYWpheiBXYXRlcmZyb250JywgLTEwLCAnMTk6MDAnLCAncHJlbWl1bS1zdXYnLCA1NTAsICdDb21wbGV0ZWQnLCBjaGF1ZmZldXJzWzJdLCAxMDApLAogIF07Cn0KCmV4cG9ydCBmdW5jdGlvbiBzZWVkU3RvcmUoKTogU3RvcmVEYXRhIHsKICBjb25zdCBjdXN0b21lcnMgPSBkZW1vQ3VzdG9tZXJzKCk7CiAgY29uc3QgY2hhdWZmZXVycyA9IGRlbW9DaGF1ZmZldXJzKCk7CiAgY29uc3QgdmVoaWNsZXMgPSBkZW1vVmVoaWNsZXMoY2hhdWZmZXVycyk7CiAgY29uc3QgcmlkZXMgPSBkZW1vUmlkZXMoY3VzdG9tZXJzLCBjaGF1ZmZldXJzKTsKICBjb25zdCBwYXltZW50czogUGF5bWVudFtdID0gcmlkZXMKICAgIC5maWx0ZXIoKHIpID0+IHIuc3RhdHVzICE9PSAnQ2FuY2VsbGVkJykKICAgIC5zbGljZSgwLCA0KQogICAgLm1hcCgociwgaSkgPT4gKHsKICAgICAgaWQ6IHVpZCgncGF5JyksCiAgICAgIHJpZGVSZWY6IHIucmVmLAogICAgICBhbW91bnQ6IHIucHJpY2UsCiAgICAgIG1ldGhvZDogci5wYXltZW50TWV0aG9kLAogICAgICBzdGF0dXM6IGkgPT09IDAgPyAnUGVuZGluZycgOiAnQ29sbGVjdGVkJywKICAgICAgZGF0ZTogci5kYXRlLAogICAgfSkpOwogIGNvbnN0IHRvbGxHYXRlczogVG9sbEdhdGVbXSA9IFsKICAgIC4uLkFycmF5LmZyb20oeyBsZW5ndGg6IDEwIH0sIChfLCBpKSA9PiAoeyBpZDogdWlkKCd0b2xsJyksIG5hbWU6IGBTYWxpayBHYXRlICR7aSArIDF9YCwgY2l0eTogJ0R1YmFpJyBhcyBjb25zdCwgdHlwZTogJ1NhbGlrJyBhcyBjb25zdCwgdmVyaWZpZWQ6IGkgPCAyIH0pKSwKICAgIC4uLkFycmF5LmZyb20oeyBsZW5ndGg6IDYgfSwgKF8sIGkpID0+ICh7IGlkOiB1aWQoJ3RvbGwnKSwgbmFtZTogYERhcmIgR2F0ZSAke2kgKyAxfWAsIGNpdHk6ICdBYnUgRGhhYmknIGFzIGNvbnN0LCB0eXBlOiAnRGFyYicgYXMgY29uc3QsIHZlcmlmaWVkOiBmYWxzZSB9KSksCiAgXTsKICBjb25zdCBhaXJwb3J0czogQWlycG9ydFtdID0gWwogICAgeyBpZDogdWlkKCdhcHQnKSwgY29kZTogJ0RYQicsIG5hbWU6ICdEdWJhaSBJbnRlcm5hdGlvbmFsJywgdGVybWluYWxzOiBbeyBuYW1lOiAnVGVybWluYWwgMScsIG1lZXRpbmdQb2ludDogJ0Fycml2YWxzIEhhbGwsIEdhdGUgQScsIGZlZTogMjUsIGNvc3Q6IDE1IH0sIHsgbmFtZTogJ1Rlcm1pbmFsIDMnLCBtZWV0aW5nUG9pbnQ6ICdHcmVldCAmIEdvIFFSIExvdW5nZScsIGZlZTogMjUsIGNvc3Q6IDE1IH1dIH0sCiAgICB7IGlkOiB1aWQoJ2FwdCcpLCBjb2RlOiAnRFdDJywgbmFtZTogJ0FsIE1ha3RvdW0gSW50ZXJuYXRpb25hbCcsIHRlcm1pbmFsczogW3sgbmFtZTogJ01haW4gVGVybWluYWwnLCBtZWV0aW5nUG9pbnQ6ICdBcnJpdmFscyBIYWxsJywgZmVlOiAyNSwgY29zdDogMTUgfV0gfSwKICAgIHsgaWQ6IHVpZCgnYXB0JyksIGNvZGU6ICdBVUgnLCBuYW1lOiAnWmF5ZWQgSW50ZXJuYXRpb25hbCcsIHRlcm1pbmFsczogW3sgbmFtZTogJ1Rlcm1pbmFsIEEnLCBtZWV0aW5nUG9pbnQ6ICdBcnJpdmFscywgTWVldGluZyBQb2ludCAyJywgZmVlOiAzMCwgY29zdDogMTggfV0gfSwKICAgIHsgaWQ6IHVpZCgnYXB0JyksIGNvZGU6ICdTSEonLCBuYW1lOiAnU2hhcmphaCBJbnRlcm5hdGlvbmFsJywgdGVybWluYWxzOiBbeyBuYW1lOiAnTWFpbiBUZXJtaW5hbCcsIG1lZXRpbmdQb2ludDogJ0Fycml2YWxzIEhhbGwnLCBmZWU6IDI1LCBjb3N0OiAxNSB9LCB7IG5hbWU6ICdUZXJtaW5hbCAyJywgbWVldGluZ1BvaW50OiAnQXJyaXZhbHMgSGFsbCcsIGZlZTogMjUsIGNvc3Q6IDE1IH1dIH0sCiAgXTsKICBjb25zdCBwcmljaW5nUnVsZXM6IFByaWNpbmdSdWxlW10gPSBbCiAgICB7IGlkOiB1aWQoJ3J1bGUnKSwgdGl0bGU6ICdOaWdodCBzdXJjaGFyZ2UgKGV4YW1wbGUpJywgZGVzY3JpcHRpb246ICdEZW1vIHJ1bGUg4oCUIGFwcGxpZXMgdG8gcGlja3VwcyBiZXR3ZWVuIDAwOjAwIGFuZCAwNTowMC4nLCBhbW91bnQ6ICdBRUQgNTAnIH0sCiAgICB7IGlkOiB1aWQoJ3J1bGUnKSwgdGl0bGU6ICdTaG9ydC1ub3RpY2UgcnVsZSAoZXhhbXBsZSknLCBkZXNjcmlwdGlvbjogJ0RlbW8gcnVsZSDigJQgYm9va2luZ3Mgd2l0aCBsZXNzIHRoYW4gMiBob3VycyBub3RpY2UuJywgYW1vdW50OiAnQUVEIDc1JyB9LAogIF07CiAgY29uc3QgcHJvbW9zOiBQcm9tb0NvZGVbXSA9IFsKICAgIHsgaWQ6IHVpZCgncHJvbW8nKSwgY29kZTogJ1dFTENPTUUxMCcsIGRpc2NvdW50UGN0OiAxMCwgYWN0aXZlOiB0cnVlLCByZWRlbXB0aW9uczogMCB9LAogICAgeyBpZDogdWlkKCdwcm9tbycpLCBjb2RlOiAnRFVCQUkyMCcsIGRpc2NvdW50UGN0OiAyMCwgYWN0aXZlOiBmYWxzZSwgcmVkZW1wdGlvbnM6IDAgfSwKICBdOwogIHJldHVybiB7CiAgICByaWRlcywKICAgIGN1c3RvbWVycywKICAgIGNoYXVmZmV1cnMsCiAgICB2ZWhpY2xlcywKICAgIHBheW1lbnRzLAogICAgY2xhc3NlczogREVNT19DTEFTU0VTLAogICAgcHJpY2luZ1J1bGVzLAogICAgdG9sbEdhdGVzLAogICAgYWlycG9ydHMsCiAgICBwcm9tb3MsCiAgICBjYW1wYWlnbnM6IFtdLAogICAgbWVzc2FnZXM6IFsKICAgICAgeyBpZDogdWlkKCdtc2cnKSwgY2hhbm5lbDogJ1doYXRzQXBwJywgdG86IGN1c3RvbWVyc1swXS5uYW1lLCBzdWJqZWN0OiBgQm9va2luZyBjb25maXJtYXRpb24gJHtyaWRlc1swXS5yZWZ9YCwgc3RhdHVzOiAnU2VudCcsIGRhdGU6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSB9LAogICAgICB7IGlkOiB1aWQoJ21zZycpLCBjaGFubmVsOiAnRW1haWwnLCB0bzogY3VzdG9tZXJzWzFdLm5hbWUsIHN1YmplY3Q6IGBCb29raW5nIGNvbmZpcm1hdGlvbiAke3JpZGVzWzFdLnJlZn1gLCBzdGF0dXM6ICdTZW50JywgZGF0ZTogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIH0sCiAgICBdLAogICAgc2V0dGluZ3M6IHsgLi4uREVGQVVMVF9TRVRUSU5HUyB9LAogICAgYWRtaW5IYXNoOiBudWxsLAogIH07Cn0K
+import type {
+  Airport,
+  Chauffeur,
+  Customer,
+  Payment,
+  PricingRule,
+  PromoCode,
+  Ride,
+  Settings,
+  StoreData,
+  TollGate,
+  Vehicle,
+  VehicleClass,
+} from './store';
+import { todayStr, uid } from './store';
+
+export const DEMO_CLASSES: VehicleClass[] = [
+  { id: 'comfort-mpv', name: 'Comfort MPV', description: 'Spacious family MPV for up to 6 passengers.', distancePrices: { '60': 250, '100': 350, '150': 450, '200': 550, '300': 750, '400': 950 }, hourlyPrices: { '2': 300, '4': 550, '6': 800, '8': 1000, '10': 1200 } },
+  { id: 'business-sedan', name: 'Business Sedan', description: 'Executive sedan for business travel.', distancePrices: { '60': 300, '100': 420, '150': 550, '200': 680, '300': 900, '400': 1150 }, hourlyPrices: { '2': 350, '4': 650, '6': 950, '8': 1200, '10': 1450 } },
+  { id: 'business-mpv', name: 'Business MPV', description: 'Premium MPV with extra luggage space.', distancePrices: { '60': 350, '100': 480, '150': 620, '200': 780, '300': 1050, '400': 1300 }, hourlyPrices: { '2': 400, '4': 750, '6': 1100, '8': 1400, '10': 1700 } },
+  { id: 'premium-suv', name: 'Premium SUV', description: 'Luxury SUV for comfort and presence.', distancePrices: { '60': 400, '100': 550, '150': 700, '200': 900, '300': 1200, '400': 1500 }, hourlyPrices: { '2': 450, '4': 850, '6': 1250, '8': 1600, '10': 1950 } },
+  { id: 'business-van', name: 'Business Van', description: 'Group travel for up to 8 passengers.', distancePrices: { '60': 450, '100': 600, '150': 800, '200': 1000, '300': 1350, '400': 1700 }, hourlyPrices: { '2': 500, '4': 950, '6': 1400, '8': 1800, '10': 2200 } },
+  { id: 'executive-suv', name: 'Executive SUV', description: 'Flagship SUV, chauffeur-driven in style.', distancePrices: { '60': 550, '100': 750, '150': 950, '200': 1200, '300': 1600, '400': 2000 }, hourlyPrices: { '2': 600, '4': 1150, '6': 1700, '8': 2200, '10': 2700 } },
+  { id: 'first-class', name: 'First Class', description: 'Top-tier luxury — the flagship experience.', distancePrices: { '60': 700, '100': 950, '150': 1200, '200': 1500, '300': 2000, '400': 2500 }, hourlyPrices: { '2': 800, '4': 1500, '6': 2200, '8': 2800, '10': 3400 } },
+];
+
+export const DEFAULT_SETTINGS: Settings = {
+  extraStopFee: 50,
+  freeWaitingAirport: 60,
+  freeWaitingElse: 15,
+  freeCancelHours: 12,
+  lateFee50UntilHours: 12,
+  lateFee100AfterHours: 3,
+  onlineFeePct: 5,
+  minNoticeMinutes: 30,
+  minHourlyHours: 2,
+  quoteValidMinutes: 20,
+  vatRegistered: false,
+  onlineBooking: true,
+};
+
+function demoCustomers(): Customer[] {
+  const names: Array<[string, string, string]> = [
+    ['Aisha Khan', '+971 50 111 2233', 'aisha@example.com'],
+    ['Omar Farouk', '+971 55 222 3344', 'omar@example.com'],
+    ['Sara Ahmed', '+971 52 333 4455', 'sara@example.com'],
+    ['James Wilson', '+44 7700 900123', 'james@example.com'],
+    ['Layla Hassan', '+971 56 444 5566', 'layla@example.com'],
+    ['David Chen', '+971 50 555 6677', 'david@example.com'],
+    ['Noor Ali', '+971 54 666 7788', 'noor@example.com'],
+    ['Emma Brown', '+44 7700 900456', 'emma@example.com'],
+  ];
+  return names.map(([name, phone, email], i) => ({
+    id: uid('cust'),
+    name,
+    phone,
+    email,
+    company: '',
+    flagged: false,
+    createdAt: todayStr(-(i + 1)),
+  }));
+}
+
+function demoChauffeurs(): Chauffeur[] {
+  return [
+    { id: uid('drv'), name: 'Bilal Hussain', phone: '+971 50 100 2001', status: 'Off duty', licenceExpiry: todayStr(180), documentExpiry: todayStr(90), cashHeld: 0 },
+    { id: uid('drv'), name: 'Karim Haddad', phone: '+971 50 100 2002', status: 'On duty', licenceExpiry: todayStr(25), documentExpiry: todayStr(200), cashHeld: 0 },
+    { id: uid('drv'), name: 'Tariq Aziz', phone: '+971 50 100 2003', status: 'Off duty', licenceExpiry: todayStr(300), documentExpiry: todayStr(12), cashHeld: 0 },
+  ];
+}
+
+function demoVehicles(chauffeurs: Chauffeur[]): Vehicle[] {
+  const rows: Array<[string, string, string]> = [
+    ['Comfort MPV', 'comfort-mpv', 'DXB-1001'],
+    ['Business Sedan', 'business-sedan', 'DXB-1002'],
+    ['Business Sedan', 'business-sedan', 'DXB-1003'],
+    ['Business Sedan', 'business-sedan', 'DXB-1004'],
+    ['First Class', 'first-class', 'DXB-1005'],
+    ['Executive SUV', 'executive-suv', 'DXB-1006'],
+    ['Premium SUV', 'premium-suv', 'DXB-1007'],
+    ['Business Van', 'business-van', 'DXB-1008'],
+    ['Business MPV', 'business-mpv', 'DXB-1009'],
+  ];
+  return rows.map(([name, classId, plate], i) => ({
+    id: uid('veh'),
+    name: `${name} ${i + 1}`,
+    classId,
+    plate,
+    mulkiyaExpiry: i === 1 ? todayStr(-10) : todayStr(120 + i * 20),
+    insuranceExpiry: i === 3 ? todayStr(-5) : todayStr(150 + i * 15),
+    rtaExpiry: todayStr(200 + i * 10),
+    status: 'Active',
+    defaultChauffeurId: i === 0 ? chauffeurs[0].id : null,
+  }));
+}
+
+function demoRides(customers: Customer[], chauffeurs: Chauffeur[]): Ride[] {
+  const c = (i: number) => customers[i % customers.length];
+  const mk = (
+    ref: string,
+    ci: number,
+    trip: Ride['tripType'],
+    pickup: string,
+    dropoff: string,
+    day: number,
+    time: string,
+    cls: string,
+    price: number,
+    status: Ride['status'],
+    chauffeur: Chauffeur | null,
+    distanceKm = 60,
+    hours = 2,
+  ): Ride => ({
+    id: uid('ride'),
+    ref,
+    customerName: c(ci).name,
+    phone: c(ci).phone,
+    tripType: trip,
+    pickup,
+    dropoff,
+    date: todayStr(day),
+    time,
+    passengers: 2,
+    luggage: 2,
+    paymentMethod: 'Card terminal',
+    nameBoard: '',
+    notes: 'Demo booking — invented data only.',
+    vehicleClass: cls,
+    distanceKm,
+    hours,
+    price,
+    status,
+    chauffeurId: chauffeur ? chauffeur.id : null,
+    createdAt: todayStr(day - 1),
+  });
+  return [
+    mk('CH-2026-1001', 0, 'Airport pickup', 'Dubai International (DXB) Terminal 3', 'Downtown Dubai', 0, '18:30', 'comfort-mpv', 250, 'Upcoming', null),
+    mk('CH-2026-1002', 1, 'Transfer', 'Dubai Marina', 'Abu Dhabi Corniche', 1, '09:00', 'business-sedan', 420, 'Upcoming', null, 150),
+    mk('CH-2026-1003', 2, 'By the hour', 'Palm Jumeirah', 'Palm Jumeirah', 1, '14:00', 'premium-suv', 850, 'Upcoming', null, 60, 4),
+    mk('CH-2026-1004', 3, 'Airport drop-off', 'JBR, Dubai', 'Dubai International (DXB) Terminal 1', 2, '07:00', 'business-mpv', 480, 'Upcoming', null, 100),
+    mk('CH-2026-1005', 4, 'Airport pickup', 'Zayed International (AUH)', 'Yas Island', 0, '20:15', 'executive-suv', 750, 'Live', chauffeurs[1]),
+    mk('CH-2026-1006', 5, 'Transfer', 'Business Bay', 'Dubai Airport Free Zone', -2, '10:00', 'comfort-mpv', 250, 'Completed', chauffeurs[0]),
+    mk('CH-2026-1007', 6, 'City tour', 'Burj Khalifa', 'Dubai Old Town', -5, '15:00', 'comfort-mpv', 550, 'Completed', chauffeurs[0], 60, 4),
+    mk('CH-2026-1008', 7, 'Business', 'DIFC', 'Dubai World Trade Centre', -3, '11:00', 'first-class', 700, 'Cancelled', null),
+    mk('CH-2026-1009', 0, 'Wedding', 'Al Barari', 'Atlantis, The Palm', 3, '17:00', 'first-class', 1500, 'Upcoming', null, 100),
+    mk('CH-2026-1010', 1, 'Airport pickup', 'Sharjah International (SHJ)', 'Al Majaz Waterfront', -10, '19:00', 'premium-suv', 550, 'Completed', chauffeurs[2], 100),
+  ];
+}
+
+export function seedStore(): StoreData {
+  const customers = demoCustomers();
+  const chauffeurs = demoChauffeurs();
+  const vehicles = demoVehicles(chauffeurs);
+  const rides = demoRides(customers, chauffeurs);
+  const payments: Payment[] = rides
+    .filter((r) => r.status !== 'Cancelled')
+    .slice(0, 4)
+    .map((r, i) => ({
+      id: uid('pay'),
+      rideRef: r.ref,
+      amount: r.price,
+      method: r.paymentMethod,
+      status: i === 0 ? 'Pending' : 'Collected',
+      date: r.date,
+    }));
+  const tollGates: TollGate[] = [
+    ...Array.from({ length: 10 }, (_, i) => ({ id: uid('toll'), name: `Salik Gate ${i + 1}`, city: 'Dubai' as const, type: 'Salik' as const, verified: i < 2 })),
+    ...Array.from({ length: 6 }, (_, i) => ({ id: uid('toll'), name: `Darb Gate ${i + 1}`, city: 'Abu Dhabi' as const, type: 'Darb' as const, verified: false })),
+  ];
+  const airports: Airport[] = [
+    { id: uid('apt'), code: 'DXB', name: 'Dubai International', terminals: [{ name: 'Terminal 1', meetingPoint: 'Arrivals Hall, Gate A', fee: 25, cost: 15 }, { name: 'Terminal 3', meetingPoint: 'Greet & Go QR Lounge', fee: 25, cost: 15 }] },
+    { id: uid('apt'), code: 'DWC', name: 'Al Maktoum International', terminals: [{ name: 'Main Terminal', meetingPoint: 'Arrivals Hall', fee: 25, cost: 15 }] },
+    { id: uid('apt'), code: 'AUH', name: 'Zayed International', terminals: [{ name: 'Terminal A', meetingPoint: 'Arrivals, Meeting Point 2', fee: 30, cost: 18 }] },
+    { id: uid('apt'), code: 'SHJ', name: 'Sharjah International', terminals: [{ name: 'Main Terminal', meetingPoint: 'Arrivals Hall', fee: 25, cost: 15 }, { name: 'Terminal 2', meetingPoint: 'Arrivals Hall', fee: 25, cost: 15 }] },
+  ];
+  const pricingRules: PricingRule[] = [
+    { id: uid('rule'), title: 'Night surcharge (example)', description: 'Demo rule — applies to pickups between 00:00 and 05:00.', amount: 'AED 50' },
+    { id: uid('rule'), title: 'Short-notice rule (example)', description: 'Demo rule — bookings with less than 2 hours notice.', amount: 'AED 75' },
+  ];
+  const promos: PromoCode[] = [
+    { id: uid('promo'), code: 'WELCOME10', discountPct: 10, active: true, redemptions: 0 },
+    { id: uid('promo'), code: 'DUBAI20', discountPct: 20, active: false, redemptions: 0 },
+  ];
+  return {
+    rides,
+    customers,
+    chauffeurs,
+    vehicles,
+    payments,
+    classes: DEMO_CLASSES,
+    pricingRules,
+    tollGates,
+    airports,
+    promos,
+    campaigns: [],
+    messages: [
+      { id: uid('msg'), channel: 'WhatsApp', to: customers[0].name, subject: `Booking confirmation ${rides[0].ref}`, status: 'Sent', date: new Date().toISOString() },
+      { id: uid('msg'), channel: 'Email', to: customers[1].name, subject: `Booking confirmation ${rides[1].ref}`, status: 'Sent', date: new Date().toISOString() },
+    ],
+    settings: { ...DEFAULT_SETTINGS },
+    adminHash: null,
+  };
+}
