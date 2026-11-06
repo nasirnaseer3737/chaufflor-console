@@ -1,1 +1,84 @@
-IyBDaGF1ZmZsb3ItU3R5bGUgRGVtbyDigJQgQ2hhdWZmZXVyIEJvb2tpbmcgV2Vic2l0ZSArIEFkbWluIENvbnNvbGUKCj4gKipERU1PIE9OTFkg4oCUIG5vdCBhZmZpbGlhdGVkIHdpdGggdGhlIHJlYWwgQ2hhdWZmbG9yLioqCj4gVGhpcyBpcyBhbiBvcmlnaW5hbCwgQ2hhdWZmbG9yLSpzdHlsZSogZGVtbyBpbnNwaXJlZCBvbmx5IGJ5IGdlbmVyaWMgY2hhdWZmZXVyLWJvb2tpbmcKPiBmZWF0dXJlcyAoYm9va2luZ3MsIGNoYXVmZmV1cnMsIHZlaGljbGVzLCBwYXltZW50cywgcHJpY2luZywgYWlycG9ydHMpLiBJdCBpcyBub3QgdGhlIHJlYWwKPiBDaGF1ZmZsb3IgY29kZSwgaXQgZG9lcyBub3QgY29ubmVjdCB0byBhbnkgcmVhbCBzZXJ2aWNlLCBhbmQgaXQgY29udGFpbnMgKipubyByZWFsCj4gY3VzdG9tZXIgZGF0YSoqLiBBbGwgc2VlZCBkYXRhIGlzIGludmVudGVkIGRlbW8gZGF0YS4KCiMjIFdoYXQgaXQgaXMKCi0gKipQdWJsaWMgc2l0ZSAoYC9gKSoqIOKAlCBsdXh1cnkgRHViYWkgLyBBYnUgRGhhYmkgY2hhdWZmZXVyIGhlcm8sIHNlcnZpY2VzCiAgKEFpcnBvcnQgcGlja3VwLCBBaXJwb3J0IGRyb3Atb2ZmLCBUcmFuc2ZlciwgQnkgdGhlIGhvdXIsIENpdHkgdG91ciwgQnVzaW5lc3MsIFdlZGRpbmcpLAogIGZsZWV0IGNsYXNzZXMgd2l0aCBBRUQgcHJpY2VzLCBkaXN0YW5jZSBiYW5kcyAoNjDigJM0MDAga20pIGFuZCBob3VybHkgcGFja2FnZXMgKDLigJMxMCBoKSwKICBhbmQgcG9saWNpZXMgKGV4dHJhIHN0b3AgQUVEIDUwLCBmcmVlIHdhaXRpbmcgNjAgbWluIGF0IGFpcnBvcnRzIC8gMTUgbWluIGVsc2V3aGVyZSwKICBmcmVlIGNhbmNlbGxhdGlvbiB1bnRpbCAxMiBoIGJlZm9yZSwgNTAlIGZyb20gMTIgaCB0byAzIGggYmVmb3JlLCAxMDAlIGFmdGVyKS4KLSAqKkJvb2tpbmcgKGAvYm9va2ApKiog4oCUIGEgd29ya2luZyBib29raW5nIGZvcm0gKG5hbWUsIHBob25lLCB0cmlwIHR5cGUsIHBpY2t1cCwKICBkcm9wLW9mZiwgZGF0ZS90aW1lLCBwYXNzZW5nZXJzLCBsdWdnYWdlLCBwYXltZW50IG1ldGhvZCwgbmFtZSBib2FyZCwgbm90ZXMpIHdpdGggYQogIGxpdmUgQUVEIHByaWNlIGVzdGltYXRlIGFuZCBhIGNvbmZpcm1hdGlvbiByZWZlcmVuY2UgbGlrZSBgQ0gtMjAyNi1YWFhYYC4KICBBIGJvb2tpbmcgbWFkZSBoZXJlIGFwcGVhcnMgaW4gdGhlIGFkbWluIFJpZGVzIGxpc3QuCi0gKipBZG1pbiBjb25zb2xlIChgL2FkbWluYCkqKiDigJQgZGFyayBzaWRlYmFyICsgdG9wYmFyLCB3aXRoIERhc2hib2FyZCBLUElzIGFuZCBhbGVydHMsCiAgUmlkZXMgKGZpbHRlcnMsIHNlYXJjaCwgYXNzaWduIGEgY2hhdWZmZXVyLCBjaGFuZ2Ugc3RhdHVzKSwgU2NoZWR1bGUgKGdyb3VwZWQgYnkgZGF0ZSksCiAgTmV3IGJvb2tpbmcsIEN1c3RvbWVycywgQ2hhdWZmZXVycywgVmVoaWNsZXMgKE11bGtpeWEgLyBpbnN1cmFuY2UgLyBSVEEgZXhwaXJ5KSwKICBQYXltZW50cyAobWFyayByZWNvbmNpbGVkKSwgVmVoaWNsZSBjbGFzc2VzICYgcHJpY2luZywgUHJpY2luZyBydWxlcywgVG9sbCBnYXRlcwogIChTYWxpayAvIERhcmIpLCBQcm9tbyBjb2RlcywgQWlycG9ydHMgKERYQiwgRFdDLCBBVUgsIFNISiB3aXRoIHRlcm1pbmFscyksIENhbXBhaWducywKICBNZXNzYWdlIGxvZyAoYXV0by1hZGRlZCBvbiBib29raW5nIC8gYXNzaWdubWVudCAvIHN0YXR1cyBjaGFuZ2UpLCBUZWFtLCBTZXR0aW5ncwogIChwb2xpY2llcyBlZGl0YWJsZSBhbmQgc2F2ZWQpLCBhbmQgSW50ZWdyYXRpb25zIChzdGF0dXMgbGlzdCBvbmx5IOKAlCBubyByZWFsIGtleXMpLgoKQWxsIGRhdGEgbGl2ZXMgaW4gdGhlIGJyb3dzZXIgdmlhIGBsb2NhbFN0b3JhZ2VgIChrZXkgYGNoYXVmZmxvci1kZW1vLXYxYCkuIFRoZXJlIGFyZQpubyBBUEkgcm91dGVzIGFuZCBubyBzZXJ2ZXIgZGF0YWJhc2UsIHNvIHRoZSBzaXRlIGNhbiBiZSBob3N0ZWQgYXMgc3RhdGljIGZpbGVzLgpBbiBhZG1pbiBzdGF0dXMgY2hhbmdlIHBlcnNpc3RzIGFmdGVyIHJlbG9hZCBiZWNhdXNlIGl0IGlzIHNhdmVkIHRvIGBsb2NhbFN0b3JhZ2VgLgoKIyMgSG93IHRoZSBkZW1vIGFkbWluIGxvZ2luIHdvcmtzCgpUaGVyZSBpcyAqKm5vIGRlZmF1bHQgcGFzc3dvcmQgYW5kIG5vIHBhc3N3b3JkIHN0b3JlZCBpbiB0aGlzIHJlcG8qKi4KCjEuIE9wZW4gYC9hZG1pbmAgZm9yIHRoZSBmaXJzdCB0aW1lOiB5b3Ugc2VlIGEgKipDcmVhdGUgQWRtaW5pc3RyYXRvcioqIGZvcm0uCjIuIENyZWF0ZSB5b3VyIG93biBwYXNzd29yZCAobWluaW11bSAxMiBjaGFyYWN0ZXJzKS4gT25seSBhIHNpbXBsZSBkZW1vIGhhc2ggb2YgaXQKICAgaXMga2VwdCBpbiAqdGhpcyBicm93c2VyJ3MqIGxvY2FsU3RvcmFnZSDigJQgdGhpcyBpcyBkZW1vLW9ubHksICoqbm90IHByb2R1Y3Rpb24KICAgc2VjdXJpdHkqKiwgYW5kIGl0IGlzIG5ldmVyIHNlbnQgYW55d2hlcmUuCjMuIEFmdGVyd2FyZHMsIGAvYWRtaW5gIHNob3dzIGEgbG9naW4gZm9ybS4gU2lnbiBvdXQgZnJvbSB0aGUgc2lkZWJhciBhdCBhbnkgdGltZS4KNC4gRm9yZ290IHRoZSBkZW1vIHBhc3N3b3JkPyBVc2UgKipSZXNldCBkZW1vIGRhdGEqKiBpbiBTZXR0aW5ncyAob3IgY2xlYXIgdGhpcwogICBzaXRlJ3MgbG9jYWxTdG9yYWdlKSB0byByZXN0b3JlIHRoZSBzZWVkIGRhdGEgYW5kIHJlY3JlYXRlIHRoZSBhZG1pbi4KCiMjIFJ1biBsb2NhbGx5CgpgYGBiYXNoCm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2CiMgb3BlbiBodHRwOi8vbG9jYWxob3N0OjMwMDAKYGBgCgojIyBCdWlsZCB0aGUgc3RhdGljIGV4cG9ydAoKYGBgYmFzaApucG0gcnVuIGJ1aWxkCiMgb3V0cHV0IGdvZXMgdG8gLi9vdXQgIChvdXQvaW5kZXguaHRtbCwgb3V0L2Jvb2svaW5kZXguaHRtbCwgb3V0L2FkbWluL2luZGV4Lmh0bWwpCmBgYAoKIyMgRGVwbG95IHRvIEdpdEh1YiBQYWdlcyAoc3RhdGljIGV4cG9ydCkKClRoaXMgcHJvamVjdCB1c2VzIGBvdXRwdXQ6ICdleHBvcnQnYCBhbmQgYSBgYmFzZVBhdGhgIHdoZW4gYEdIX1BBR0VTPTFgIGlzIHNldCwKc28gdGhlIGJ1aWx0IHNpdGUgd29ya3MgdW5kZXIgYGh0dHBzOi8vPHVzZXI+LmdpdGh1Yi5pby9jaGF1ZmZsb3ItY29uc29sZS9gLgoKYGBgYmFzaApHSF9QQUdFUz0xIG5wbSBydW4gYnVpbGQKIyBwdWJsaXNoIHRoZSBjb250ZW50cyBvZiAuL291dCB0byB0aGUgZ2gtcGFnZXMgYnJhbmNoLCBlLmcuIHdpdGggeW91ciB1c3VhbAojIFBhZ2VzIHdvcmtmbG93LCBvcjogIG5weCBnaC1wYWdlcyAtZCBvdXQKYGBgCgo+IERvICoqbm90KiogZGVwbG95IHRoaXMgZGVtbyBhcyBpZiBpdCB3ZXJlIHRoZSByZWFsIENoYXVmZmxvciBzZXJ2aWNlLCBhbmQgZG8gbm90Cj4gcGFzdGUgcmVhbCBBUEkga2V5cywgcmVhbCBjdXN0b21lciBkYXRhLCBvciByZWFsIHBheW1lbnQgY3JlZGVudGlhbHMgaW50byBpdC4KCiMjIFRlY2gKCk5leHQuanMgMTUgKyBSZWFjdCAxOSArIFR5cGVTY3JpcHQsIG5vIGV4dHJhIHJ1bnRpbWUgZGVwZW5kZW5jaWVzLCBubyBUYWlsd2luZC4KU3R5bGluZyBpcyBhIHNpbmdsZSBgYXBwL2dsb2JhbHMuY3NzYCAocHJlbWl1bSBkYXJrL2dvbGQgcHVibGljIHRoZW1lLCBkYXJrLXNpZGViYXIKYWRtaW4gdGhlbWUsIHJlc3BvbnNpdmUpLgoKIyMgTGltaXRhdGlvbnMgKGRlbW8tb25seSkKCi0gTm8gcmVhbCBkcml2ZXJzLCB2ZWhpY2xlcywgcGF5bWVudHMsIFNNUy9XaGF0c0FwcCBzZW5kaW5nLCBtYXBzLCBvciBkaXNwYXRjaC4KLSBObyBtdWx0aS11c2VyIHN5bmM6IGVhY2ggYnJvd3NlciBoYXMgaXRzIG93biBsb2NhbFN0b3JhZ2UgY29weS4KLSBObyBzZXJ2ZXIgYXV0aGVudGljYXRpb246IGFueW9uZSB3aXRoIHRoZSBicm93c2VyIGNhbiByZXNldCB0aGUgZGVtby4KLSBQcmljZSBlc3RpbWF0ZXMgYXJlIGRlbW8gdGFibGVzLCBub3QgbGl2ZSBxdW90ZXMuCg==
+# Chaufflor-Style Demo — Chauffeur Booking Website + Admin Console
+
+> **DEMO ONLY — not affiliated with the real Chaufflor.**
+> This is an original, Chaufflor-*style* demo inspired only by generic chauffeur-booking
+> features (bookings, chauffeurs, vehicles, payments, pricing, airports). It is not the real
+> Chaufflor code, it does not connect to any real service, and it contains **no real
+> customer data**. All seed data is invented demo data.
+
+## What it is
+
+- **Public site (`/`)** — luxury Dubai / Abu Dhabi chauffeur hero, services
+  (Airport pickup, Airport drop-off, Transfer, By the hour, City tour, Business, Wedding),
+  fleet classes with AED prices, distance bands (60–400 km) and hourly packages (2–10 h),
+  and policies (extra stop AED 50, free waiting 60 min at airports / 15 min elsewhere,
+  free cancellation until 12 h before, 50% from 12 h to 3 h before, 100% after).
+- **Booking (`/book`)** — a working booking form (name, phone, trip type, pickup,
+  drop-off, date/time, passengers, luggage, payment method, name board, notes) with a
+  live AED price estimate and a confirmation reference like `CH-2026-XXXX`.
+  A booking made here appears in the admin Rides list.
+- **Admin console (`/admin`)** — dark sidebar + topbar, with Dashboard KPIs and alerts,
+  Rides (filters, search, assign a chauffeur, change status), Schedule (grouped by date),
+  New booking, Customers, Chauffeurs, Vehicles (Mulkiya / insurance / RTA expiry),
+  Payments (mark reconciled), Vehicle classes & pricing, Pricing rules, Toll gates
+  (Salik / Darb), Promo codes, Airports (DXB, DWC, AUH, SHJ with terminals), Campaigns,
+  Message log (auto-added on booking / assignment / status change), Team, Settings
+  (policies editable and saved), and Integrations (status list only — no real keys).
+
+All data lives in the browser via `localStorage` (key `chaufflor-demo-v1`). There are
+no API routes and no server database, so the site can be hosted as static files.
+An admin status change persists after reload because it is saved to `localStorage`.
+
+## How the demo admin login works
+
+There is **no default password and no password stored in this repo**.
+
+1. Open `/admin` for the first time: you see a **Create Administrator** form.
+2. Create your own password (minimum 12 characters). Only a simple demo hash of it
+   is kept in *this browser's* localStorage — this is demo-only, **not production
+   security**, and it is never sent anywhere.
+3. Afterwards, `/admin` shows a login form. Sign out from the sidebar at any time.
+4. Forgot the demo password? Use **Reset demo data** in Settings (or clear this
+   site's localStorage) to restore the seed data and recreate the admin.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+# open http://localhost:3000
+```
+
+## Build the static export
+
+```bash
+npm run build
+# output goes to ./out  (out/index.html, out/book/index.html, out/admin/index.html)
+```
+
+## Deploy to GitHub Pages (static export)
+
+This project uses `output: 'export'` and a `basePath` when `GH_PAGES=1` is set,
+so the built site works under `https://<user>.github.io/chaufflor-console/`.
+
+```bash
+GH_PAGES=1 npm run build
+# publish the contents of ./out to the gh-pages branch, e.g. with your usual
+# Pages workflow, or:  npx gh-pages -d out
+```
+
+> Do **not** deploy this demo as if it were the real Chaufflor service, and do not
+> paste real API keys, real customer data, or real payment credentials into it.
+
+## Tech
+
+Next.js 15 + React 19 + TypeScript, no extra runtime dependencies, no Tailwind.
+Styling is a single `app/globals.css` (premium dark/gold public theme, dark-sidebar
+admin theme, responsive).
+
+## Limitations (demo-only)
+
+- No real drivers, vehicles, payments, SMS/WhatsApp sending, maps, or dispatch.
+- No multi-user sync: each browser has its own localStorage copy.
+- No server authentication: anyone with the browser can reset the demo.
+- Price estimates are demo tables, not live quotes.
