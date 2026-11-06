@@ -1,1 +1,216 @@
-J3VzZSBjbGllbnQnOwppbXBvcnQgeyB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JzsKaW1wb3J0IHR5cGUgeyBQYXltZW50TWV0aG9kLCBSaWRlLCBTdG9yZURhdGEsIFRyaXBUeXBlIH0gZnJvbSAnLi4vbGliL3N0b3JlJzsKaW1wb3J0IHsgY3JlYXRlUmlkZSwgZXN0aW1hdGVQcmljZSwgc2F2ZVN0b3JlIH0gZnJvbSAnLi4vbGliL3N0b3JlJzsKCmNvbnN0IFRSSVBfVFlQRVM6IFRyaXBUeXBlW10gPSBbCiAgJ0FpcnBvcnQgcGlja3VwJywKICAnQWlycG9ydCBkcm9wLW9mZicsCiAgJ1RyYW5zZmVyJywKICAnQnkgdGhlIGhvdXInLAogICdDaXR5IHRvdXInLAogICdCdXNpbmVzcycsCiAgJ1dlZGRpbmcnLApdOwpjb25zdCBQQVlNRU5UUzogUGF5bWVudE1ldGhvZFtdID0gWwogICdDYXNoJywKICAnQ2FyZCB0ZXJtaW5hbCcsCiAgJ09ubGluZSBsaW5rJywKICAnQmFuayB0cmFuc2ZlcicsCiAgJ0NvcnBvcmF0ZSBpbnZvaWNlJywKXTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEJvb2tpbmdGb3JtKHsKICBkYXRhLAogIG9uQ3JlYXRlZCwKfTogewogIGRhdGE6IFN0b3JlRGF0YTsKICBvbkNyZWF0ZWQ6IChkYXRhOiBTdG9yZURhdGEsIHJpZGU6IFJpZGUpID0+IHZvaWQ7Cn0pIHsKICBjb25zdCBbbmFtZSwgc2V0TmFtZV0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW3Bob25lLCBzZXRQaG9uZV0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW3RyaXBUeXBlLCBzZXRUcmlwVHlwZV0gPSB1c2VTdGF0ZTxUcmlwVHlwZT4oJ0FpcnBvcnQgcGlja3VwJyk7CiAgY29uc3QgW3BpY2t1cCwgc2V0UGlja3VwXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbZHJvcG9mZiwgc2V0RHJvcG9mZl0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW2RhdGUsIHNldERhdGVdID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFt0aW1lLCBzZXRUaW1lXSA9IHVzZVN0YXRlKCcxMDowMCcpOwogIGNvbnN0IFtwYXNzZW5nZXJzLCBzZXRQYXNzZW5nZXJzXSA9IHVzZVN0YXRlKDIpOwogIGNvbnN0IFtsdWdnYWdlLCBzZXRMdWdnYWdlXSA9IHVzZVN0YXRlKDIpOwogIGNvbnN0IFtwYXltZW50TWV0aG9kLCBzZXRQYXltZW50TWV0aG9kXSA9IHVzZVN0YXRlPFBheW1lbnRNZXRob2Q+KCdDYXJkIHRlcm1pbmFsJyk7CiAgY29uc3QgW25hbWVCb2FyZCwgc2V0TmFtZUJvYXJkXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbbm90ZXMsIHNldE5vdGVzXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbdmVoaWNsZUNsYXNzLCBzZXRWZWhpY2xlQ2xhc3NdID0gdXNlU3RhdGUoZGF0YS5jbGFzc2VzWzBdPy5pZCA/PyAnJyk7CiAgY29uc3QgW2Rpc3RhbmNlS20sIHNldERpc3RhbmNlS21dID0gdXNlU3RhdGUoNjApOwogIGNvbnN0IFtob3Vycywgc2V0SG91cnNdID0gdXNlU3RhdGUoMik7CiAgY29uc3QgW2Vycm9yLCBzZXRFcnJvcl0gPSB1c2VTdGF0ZSgnJyk7CiAgY29uc3QgW2RvbmUsIHNldERvbmVdID0gdXNlU3RhdGU8UmlkZSB8IG51bGw+KG51bGwpOwoKICBjb25zdCBwcmljZSA9IHVzZU1lbW8oCiAgICAoKSA9PgogICAgICBlc3RpbWF0ZVByaWNlKGRhdGEuY2xhc3NlcywgdmVoaWNsZUNsYXNzLCB0cmlwVHlwZSwgZGlzdGFuY2VLbSwgaG91cnMsIHBheW1lbnRNZXRob2QsIGRhdGEuc2V0dGluZ3MpLAogICAgW2RhdGEsIHZlaGljbGVDbGFzcywgdHJpcFR5cGUsIGRpc3RhbmNlS20sIGhvdXJzLCBwYXltZW50TWV0aG9kXSwKICApOwoKICBmdW5jdGlvbiBzdWJtaXQoZTogUmVhY3QuRm9ybUV2ZW50KSB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBpZiAoIW5hbWUudHJpbSgpIHx8ICFwaG9uZS50cmltKCkgfHwgIXBpY2t1cC50cmltKCkgfHwgIWRyb3BvZmYudHJpbSgpIHx8ICFkYXRlIHx8ICF0aW1lKSB7CiAgICAgIHNldEVycm9yKCdQbGVhc2UgZmlsbCBpbiBuYW1lLCBwaG9uZSwgcGlja3VwLCBkcm9wLW9mZiwgZGF0ZSBhbmQgdGltZS4nKTsKICAgICAgcmV0dXJuOwogICAgfQogICAgc2V0RXJyb3IoJycpOwogICAgY29uc3QgeyBkYXRhOiBuZXh0LCByaWRlIH0gPSBjcmVhdGVSaWRlKGRhdGEsIHsKICAgICAgY3VzdG9tZXJOYW1lOiBuYW1lLnRyaW0oKSwKICAgICAgcGhvbmU6IHBob25lLnRyaW0oKSwKICAgICAgdHJpcFR5cGUsCiAgICAgIHBpY2t1cDogcGlja3VwLnRyaW0oKSwKICAgICAgZHJvcG9mZjogZHJvcG9mZi50cmltKCksCiAgICAgIGRhdGUsCiAgICAgIHRpbWUsCiAgICAgIHBhc3NlbmdlcnMsCiAgICAgIGx1Z2dhZ2UsCiAgICAgIHBheW1lbnRNZXRob2QsCiAgICAgIG5hbWVCb2FyZDogbmFtZUJvYXJkLnRyaW0oKSwKICAgICAgbm90ZXM6IG5vdGVzLnRyaW0oKSwKICAgICAgdmVoaWNsZUNsYXNzLAogICAgICBkaXN0YW5jZUttLAogICAgICBob3VycywKICAgIH0pOwogICAgc2F2ZVN0b3JlKG5leHQpOwogICAgc2V0RG9uZShyaWRlKTsKICAgIG9uQ3JlYXRlZChuZXh0LCByaWRlKTsKICB9CgogIGlmIChkb25lKSB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCI+CiAgICAgICAgPGgyPkJvb2tpbmcgY29uZmlybWVkIOKAlCBkZW1vIG9ubHk8L2gyPgogICAgICAgIDxwPgogICAgICAgICAgUmVmZXJlbmNlOiA8Yj57ZG9uZS5yZWZ9PC9iPgogICAgICAgIDwvcD4KICAgICAgICA8cD4KICAgICAgICAgIHtkb25lLmN1c3RvbWVyTmFtZX0gwrcge2RvbmUudHJpcFR5cGV9IMK3IHtkb25lLmRhdGV9IGF0IHtkb25lLnRpbWV9CiAgICAgICAgICA8YnIgLz4KICAgICAgICAgIHtkb25lLnBpY2t1cH0g4oaSIHtkb25lLmRyb3BvZmZ9CiAgICAgICAgICA8YnIgLz4KICAgICAgICAgIFZlaGljbGUgY2xhc3M6IHtkYXRhLmNsYXNzZXMuZmluZCgoYykgPT4gYy5pZCA9PT0gZG9uZS52ZWhpY2xlQ2xhc3MpPy5uYW1lfSDCtyBFc3RpbWF0ZWQgcHJpY2U6eycgJ30KICAgICAgICAgIDxiPkFFRCB7ZG9uZS5wcmljZX08L2I+CiAgICAgICAgPC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXV0ZWQgc21hbGwiPgogICAgICAgICAgVGhpcyBpcyBhIGRlbW8gYm9va2luZyBzdG9yZWQgb25seSBpbiB0aGlzIGJyb3dzZXIuIE5vIHJlYWwgZHJpdmVyLCBwYXltZW50IG9yIGRpc3BhdGNoCiAgICAgICAgICBoYXBwZW5zLiBJbiB0aGUgYWRtaW4gY29uc29sZSB0aGlzIHJpZGUgbm93IGFwcGVhcnMgdW5kZXIgUmlkZXMgYXMgdW5hc3NpZ25lZC4KICAgICAgICA8L3A+CiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0biBnaG9zdCIgb25DbGljaz17KCkgPT4gc2V0RG9uZShudWxsKX0+CiAgICAgICAgICBNYWtlIGFub3RoZXIgYm9va2luZwogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGZvcm0gY2xhc3NOYW1lPSJjYXJkIiBvblN1Ym1pdD17c3VibWl0fT4KICAgICAgPGgyIHN0eWxlPXt7IG1hcmdpblRvcDogMCB9fT5Cb29rIGEgY2hhdWZmZXVyPC9oMj4KICAgICAge2Vycm9yICYmIDxkaXYgY2xhc3NOYW1lPSJhbGVydCBiYWQiPntlcnJvcn08L2Rpdj59CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb3JtZ3JpZCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbD5GdWxsIG5hbWU8L2xhYmVsPgogICAgICAgICAgPGlucHV0IHZhbHVlPXtuYW1lfSBvbkNoYW5nZT17KGUpID0+IHNldE5hbWUoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iRGVtbyBHdWVzdCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsPlBob25lPC9sYWJlbD4KICAgICAgICAgIDxpbnB1dCB2YWx1ZT17cGhvbmV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0UGhvbmUoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iKzk3MSA1MCAwMDAgMDAwMCIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsPlRyaXAgdHlwZTwvbGFiZWw+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXt0cmlwVHlwZX0gb25DaGFuZ2U9eyhlKSA9PiBzZXRUcmlwVHlwZShlLnRhcmdldC52YWx1ZSBhcyBUcmlwVHlwZSl9PgogICAgICAgICAgICB7VFJJUF9UWVBFUy5tYXAoKHQpID0+ICgKICAgICAgICAgICAgICA8b3B0aW9uIGtleT17dH0+e3R9PC9vcHRpb24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbD5WZWhpY2xlIGNsYXNzPC9sYWJlbD4KICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e3ZlaGljbGVDbGFzc30gb25DaGFuZ2U9eyhlKSA9PiBzZXRWZWhpY2xlQ2xhc3MoZS50YXJnZXQudmFsdWUpfT4KICAgICAgICAgICAge2RhdGEuY2xhc3Nlcy5tYXAoKGMpID0+ICgKICAgICAgICAgICAgICA8b3B0aW9uIGtleT17Yy5pZH0gdmFsdWU9e2MuaWR9PgogICAgICAgICAgICAgICAge2MubmFtZX0KICAgICAgICAgICAgICA8L29wdGlvbj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsPlBpY2t1cDwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQgdmFsdWU9e3BpY2t1cH0gb25DaGFuZ2U9eyhlKSA9PiBzZXRQaWNrdXAoZS50YXJnZXQudmFsdWUpfSBwbGFjZWhvbGRlcj0iZS5nLiBEdWJhaSBJbnRlcm5hdGlvbmFsIChEWEIpIFRlcm1pbmFsIDMiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbD5Ecm9wLW9mZjwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQgdmFsdWU9e2Ryb3BvZmZ9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0RHJvcG9mZihlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJlLmcuIERvd250b3duIER1YmFpIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXY+CiAgICAgICAgICA8bGFiZWw+RGF0ZTwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQgdHlwZT0iZGF0ZSIgdmFsdWU9e2RhdGV9IG9uQ2hhbmdlPXsoZSkgPT4gc2V0RGF0ZShlLnRhcmdldC52YWx1ZSl9IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbD5UaW1lPC9sYWJlbD4KICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0aW1lIiB2YWx1ZT17dGltZX0gb25DaGFuZ2U9eyhlKSA9PiBzZXRUaW1lKGUudGFyZ2V0LnZhbHVlKX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgICB7dHJpcFR5cGUgPT09ICdCeSB0aGUgaG91cicgPyAoCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWw+SG91cnMgKDLigJMxMCk8L2xhYmVsPgogICAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtob3Vyc30gb25DaGFuZ2U9eyhlKSA9PiBzZXRIb3VycyhOdW1iZXIoZS50YXJnZXQudmFsdWUpKX0+CiAgICAgICAgICAgICAge1syLCA0LCA2LCA4LCAxMF0ubWFwKChoKSA9PiAoCiAgICAgICAgICAgICAgICA8b3B0aW9uIGtleT17aH0gdmFsdWU9e2h9PgogICAgICAgICAgICAgICAgICB7aH0gaG91cnMKICAgICAgICAgICAgICAgIDwvb3B0aW9uPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICkgOiAoCiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8bGFiZWw+RXN0aW1hdGVkIGRpc3RhbmNlIChrbSk8L2xhYmVsPgogICAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtkaXN0YW5jZUttfSBvbkNoYW5nZT17KGUpID0+IHNldERpc3RhbmNlS20oTnVtYmVyKGUudGFyZ2V0LnZhbHVlKSl9PgogICAgICAgICAgICAgIHtbNjAsIDEwMCwgMTUwLCAyMDAsIDMwMCwgNDAwXS5tYXAoKGQpID0+ICgKICAgICAgICAgICAgICAgIDxvcHRpb24ga2V5PXtkfSB2YWx1ZT17ZH0+CiAgICAgICAgICAgICAgICAgIHtkfSBrbQogICAgICAgICAgICAgICAgPC9vcHRpb24+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgICA8ZGl2PgogICAgICAgICAgPGxhYmVsPlBhc3NlbmdlcnM8L2xhYmVsPgogICAgICAgICAgPGlucHV0IHR5cGU9Im51bWJlciIgbWluPXsxfSBtYXg9ezEyfSB2YWx1ZT17cGFzc2VuZ2Vyc30gb25DaGFuZ2U9eyhlKSA9PiBzZXRQYXNzZW5nZXJzKE51bWJlcihlLnRhcmdldC52YWx1ZSkpfSAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXY+CiAgICAgICAgICA8bGFiZWw+THVnZ2FnZTwvbGFiZWw+CiAgICAgICAgICA8aW5wdXQgdHlwZT0ibnVtYmVyIiBtaW49ezB9IG1heD17MjB9IHZhbHVlPXtsdWdnYWdlfSBvbkNoYW5nZT17KGUpID0+IHNldEx1Z2dhZ2UoTnVtYmVyKGUudGFyZ2V0LnZhbHVlKSl9IC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxsYWJlbD5QYXltZW50IG1ldGhvZDwvbGFiZWw+CiAgICAgICAgICA8c2VsZWN0IHZhbHVlPXtwYXltZW50TWV0aG9kfSBvbkNoYW5nZT17KGUpID0+IHNldFBheW1lbnRNZXRob2QoZS50YXJnZXQudmFsdWUgYXMgUGF5bWVudE1ldGhvZCl9PgogICAgICAgICAgICB7UEFZTUVOVFMubWFwKChwKSA9PiAoCiAgICAgICAgICAgICAgPG9wdGlvbiBrZXk9e3B9PntwfTwvb3B0aW9uPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXY+CiAgICAgICAgICA8bGFiZWw+TmFtZSBib2FyZCAob3B0aW9uYWwpPC9sYWJlbD4KICAgICAgICAgIDxpbnB1dCB2YWx1ZT17bmFtZUJvYXJkfSBvbkNoYW5nZT17KGUpID0+IHNldE5hbWVCb2FyZChlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJOYW1lIHNob3duIGF0IGFpcnBvcnQgcGlja3VwIiAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGxhYmVsPk5vdGVzPC9sYWJlbD4KICAgICAgPHRleHRhcmVhIHZhbHVlPXtub3Rlc30gb25DaGFuZ2U9eyhlKSA9PiBzZXROb3RlcyhlLnRhcmdldC52YWx1ZSl9IHBsYWNlaG9sZGVyPSJGbGlnaHQgbnVtYmVyLCBzcGVjaWFsIHJlcXVlc3Rz4oCmIiAvPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iYWxlcnQgb2siPgogICAgICAgIExpdmUgcHJpY2UgZXN0aW1hdGU6IDxiPkFFRCB7cHJpY2V9PC9iPgogICAgICAgIHtwYXltZW50TWV0aG9kID09PSAnT25saW5lIGxpbmsnID8gYCAoaW5jbHVkZXMgJHtkYXRhLnNldHRpbmdzLm9ubGluZUZlZVBjdH0lIG9ubGluZS1saW5rIGZlZSlgIDogJyd9CiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJtdXRlZCI+IMK3IFF1b3RlIHZhbGlkIHtkYXRhLnNldHRpbmdzLnF1b3RlVmFsaWRNaW51dGVzfSBtaW51dGVzIMK3IEV4dHJhIHN0b3AgQUVEIHtkYXRhLnNldHRpbmdzLmV4dHJhU3RvcEZlZX08L3NwYW4+CiAgICAgIDwvZGl2PgogICAgICA8YnV0dG9uIGNsYXNzTmFtZT0iYnRuIiB0eXBlPSJzdWJtaXQiPgogICAgICAgIENvbmZpcm0gYm9va2luZwogICAgICA8L2J1dHRvbj4KICAgICAgPHAgY2xhc3NOYW1lPSJtdXRlZCBzbWFsbCIgc3R5bGU9e3sgbWFyZ2luVG9wOiAxMiB9fT4KICAgICAgICBEZW1vIG9ubHk6IGNvbmZpcm1pbmcgc3RvcmVzIHRoZSBib29raW5nIGluIHRoaXMgYnJvd3NlciZhcG9zO3MgbG9jYWxTdG9yYWdlLiBObyBwYXltZW50IGlzCiAgICAgICAgY2hhcmdlZCBhbmQgbm8gZHJpdmVyIGlzIGRpc3BhdGNoZWQuCiAgICAgIDwvcD4KICAgIDwvZm9ybT4KICApOwp9Cg==
+'use client';
+import { useMemo, useState } from 'react';
+import type { PaymentMethod, Ride, StoreData, TripType } from '../lib/store';
+import { createRide, estimatePrice, saveStore } from '../lib/store';
+
+const TRIP_TYPES: TripType[] = [
+  'Airport pickup',
+  'Airport drop-off',
+  'Transfer',
+  'By the hour',
+  'City tour',
+  'Business',
+  'Wedding',
+];
+const PAYMENTS: PaymentMethod[] = [
+  'Cash',
+  'Card terminal',
+  'Online link',
+  'Bank transfer',
+  'Corporate invoice',
+];
+
+export default function BookingForm({
+  data,
+  onCreated,
+}: {
+  data: StoreData;
+  onCreated: (data: StoreData, ride: Ride) => void;
+}) {
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [tripType, setTripType] = useState<TripType>('Airport pickup');
+  const [pickup, setPickup] = useState('');
+  const [dropoff, setDropoff] = useState('');
+  const [date, setDate] = useState('');
+  const [time, setTime] = useState('10:00');
+  const [passengers, setPassengers] = useState(2);
+  const [luggage, setLuggage] = useState(2);
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethod>('Card terminal');
+  const [nameBoard, setNameBoard] = useState('');
+  const [notes, setNotes] = useState('');
+  const [vehicleClass, setVehicleClass] = useState(data.classes[0]?.id ?? '');
+  const [distanceKm, setDistanceKm] = useState(60);
+  const [hours, setHours] = useState(2);
+  const [error, setError] = useState('');
+  const [done, setDone] = useState<Ride | null>(null);
+
+  const price = useMemo(
+    () =>
+      estimatePrice(data.classes, vehicleClass, tripType, distanceKm, hours, paymentMethod, data.settings),
+    [data, vehicleClass, tripType, distanceKm, hours, paymentMethod],
+  );
+
+  function submit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!name.trim() || !phone.trim() || !pickup.trim() || !dropoff.trim() || !date || !time) {
+      setError('Please fill in name, phone, pickup, drop-off, date and time.');
+      return;
+    }
+    setError('');
+    const { data: next, ride } = createRide(data, {
+      customerName: name.trim(),
+      phone: phone.trim(),
+      tripType,
+      pickup: pickup.trim(),
+      dropoff: dropoff.trim(),
+      date,
+      time,
+      passengers,
+      luggage,
+      paymentMethod,
+      nameBoard: nameBoard.trim(),
+      notes: notes.trim(),
+      vehicleClass,
+      distanceKm,
+      hours,
+    });
+    saveStore(next);
+    setDone(ride);
+    onCreated(next, ride);
+  }
+
+  if (done) {
+    return (
+      <div className="card">
+        <h2>Booking confirmed — demo only</h2>
+        <p>
+          Reference: <b>{done.ref}</b>
+        </p>
+        <p>
+          {done.customerName} · {done.tripType} · {done.date} at {done.time}
+          <br />
+          {done.pickup} → {done.dropoff}
+          <br />
+          Vehicle class: {data.classes.find((c) => c.id === done.vehicleClass)?.name} · Estimated price:{' '}
+          <b>AED {done.price}</b>
+        </p>
+        <p className="muted small">
+          This is a demo booking stored only in this browser. No real driver, payment or dispatch
+          happens. In the admin console this ride now appears under Rides as unassigned.
+        </p>
+        <button className="btn ghost" onClick={() => setDone(null)}>
+          Make another booking
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <form className="card" onSubmit={submit}>
+      <h2 style={{ marginTop: 0 }}>Book a chauffeur</h2>
+      {error && <div className="alert bad">{error}</div>}
+      <div className="formgrid">
+        <div>
+          <label>Full name</label>
+          <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Demo Guest" />
+        </div>
+        <div>
+          <label>Phone</label>
+          <input value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="+971 50 000 0000" />
+        </div>
+        <div>
+          <label>Trip type</label>
+          <select value={tripType} onChange={(e) => setTripType(e.target.value as TripType)}>
+            {TRIP_TYPES.map((t) => (
+              <option key={t}>{t}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label>Vehicle class</label>
+          <select value={vehicleClass} onChange={(e) => setVehicleClass(e.target.value)}>
+            {data.classes.map((c) => (
+              <option key={c.id} value={c.id}>
+                {c.name}
+              </option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label>Pickup</label>
+          <input value={pickup} onChange={(e) => setPickup(e.target.value)} placeholder="e.g. Dubai International (DXB) Terminal 3" />
+        </div>
+        <div>
+          <label>Drop-off</label>
+          <input value={dropoff} onChange={(e) => setDropoff(e.target.value)} placeholder="e.g. Downtown Dubai" />
+        </div>
+        <div>
+          <label>Date</label>
+          <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
+        </div>
+        <div>
+          <label>Time</label>
+          <input type="time" value={time} onChange={(e) => setTime(e.target.value)} />
+        </div>
+        {tripType === 'By the hour' ? (
+          <div>
+            <label>Hours (2–10)</label>
+            <select value={hours} onChange={(e) => setHours(Number(e.target.value))}>
+              {[2, 4, 6, 8, 10].map((h) => (
+                <option key={h} value={h}>
+                  {h} hours
+                </option>
+              ))}
+            </select>
+          </div>
+        ) : (
+          <div>
+            <label>Estimated distance (km)</label>
+            <select value={distanceKm} onChange={(e) => setDistanceKm(Number(e.target.value))}>
+              {[60, 100, 150, 200, 300, 400].map((d) => (
+                <option key={d} value={d}>
+                  {d} km
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
+        <div>
+          <label>Passengers</label>
+          <input type="number" min={1} max={12} value={passengers} onChange={(e) => setPassengers(Number(e.target.value))} />
+        </div>
+        <div>
+          <label>Luggage</label>
+          <input type="number" min={0} max={20} value={luggage} onChange={(e) => setLuggage(Number(e.target.value))} />
+        </div>
+        <div>
+          <label>Payment method</label>
+          <select value={paymentMethod} onChange={(e) => setPaymentMethod(e.target.value as PaymentMethod)}>
+            {PAYMENTS.map((p) => (
+              <option key={p}>{p}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label>Name board (optional)</label>
+          <input value={nameBoard} onChange={(e) => setNameBoard(e.target.value)} placeholder="Name shown at airport pickup" />
+        </div>
+      </div>
+      <label>Notes</label>
+      <textarea value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="Flight number, special requests…" />
+      <div className="alert ok">
+        Live price estimate: <b>AED {price}</b>
+        {paymentMethod === 'Online link' ? ` (includes ${data.settings.onlineFeePct}% online-link fee)` : ''}
+        <span className="muted"> · Quote valid {data.settings.quoteValidMinutes} minutes · Extra stop AED {data.settings.extraStopFee}</span>
+      </div>
+      <button className="btn" type="submit">
+        Confirm booking
+      </button>
+      <p className="muted small" style={{ marginTop: 12 }}>
+        Demo only: confirming stores the booking in this browser&apos;s localStorage. No payment is
+        charged and no driver is dispatched.
+      </p>
+    </form>
+  );
+}
